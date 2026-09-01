@@ -1,0 +1,30 @@
+[
+  {
+    "doc_id": "eu-2025-2546",
+    "unit_label": "Article 2",
+    "note": "DRAFTING ERROR (unfixed as of 2026-08): Art 2 cites 'Section 2.12 of Annex II to Delegated Regulation (EU) 2025/2551' for the physical-site-visit duty, but 2.12 is Sampling; the site-visit substance sits in Section 2.13. Cite 2.13 for substance until a corrigendum lands.",
+    "source": "Carbon Verifier Library survey 2026-07-22, re-confirmed in fetched text 2026-09-01",
+    "added": "2026-09-01"
+  },
+  {
+    "doc_id": "eu-2024-2620",
+    "unit_label": null,
+    "note": "The Annex lists ONLY mineral carbonates in construction products as eligible permanently-chemically-bound uses. Consequence: CO2 bound in urea or soda ash is NOT deductible under MRR Art 49a or 2025/2547 Annex II B.8.2(1)(b). Training materials teaching a urea product-bound deduction are wrong under definitive-period law.",
+    "source": "Primary-source finding 2026-08-20",
+    "added": "2026-09-01"
+  },
+  {
+    "doc_id": "eu-2023-1773",
+    "unit_label": null,
+    "note": "SUPERSEDED for the definitive period by 2025/2547. Kept in corpus because transitional-period reports were filed under it; never cite it for definitive-period monitoring-plan content. Widely-circulated training decks still cite this act's framing.",
+    "source": "Library standing rule 2026-08-20",
+    "added": "2026-09-01"
+  },
+  {
+    "doc_id": "eu-2023-956",
+    "unit_label": "Article 2a",
+    "note": "Omnibus de-minimis: 50 t net mass per importer per year (Annex VII method), NOT applicable to electricity or hydrogen imports. Replaces the old 150 EUR consignment threshold.",
+    "source": "Consolidated text check 2026-08-20",
+    "added": "2026-09-01"
+  }
+]

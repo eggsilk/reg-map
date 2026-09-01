@@ -1,0 +1,175 @@
+{
+  "_comment": "Registry of tracked documents. Source of truth for the fetch pipeline. Jurisdiction-first: every entry carries jurisdiction/regime/type/tier regardless of source system.",
+  "documents": [
+    {
+      "id": "eu-2023-956",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "regulation",
+      "role": "CBAM basic act (consolidated, incl. Omnibus 2025/2083)",
+      "celex": "02023R0956-20251020",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2025-2551",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "delegated_regulation",
+      "role": "Verifier accreditation + verification process rulebook",
+      "celex": "32025R2551",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2025-2546",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "implementing_regulation",
+      "role": "Verification specifics + report template",
+      "celex": "32025R2546",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2025-2547",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "implementing_regulation",
+      "role": "Monitoring and reporting for the definitive period (the CBAM MRR)",
+      "celex": "32025R2547",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2025-2620",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "implementing_regulation",
+      "role": "Benchmarks + free-allocation adjustment",
+      "celex": "32025R2620",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2025-2621",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "implementing_regulation",
+      "role": "Default values (very large; tables)",
+      "celex": "32025R2621",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A",
+      "flags": ["large_document"]
+    },
+    {
+      "id": "eu-2024-2620",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "delegated_regulation",
+      "role": "Permanently chemically bound CO2 - eligible products list",
+      "celex": "32024R2620",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2018-2066",
+      "jurisdiction": "EU",
+      "regime": "ETS",
+      "instrument_type": "implementing_regulation",
+      "role": "MRR - monitoring and reporting (consolidated)",
+      "celex": "02018R2066-20250527",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2018-2067",
+      "jurisdiction": "EU",
+      "regime": "ETS",
+      "instrument_type": "implementing_regulation",
+      "role": "AVR - accreditation and verification (consolidated, incl. ETS2 Ch IIIa)",
+      "celex": "02018R2067-20250622",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2003-87",
+      "jurisdiction": "EU",
+      "regime": "ETS",
+      "instrument_type": "directive",
+      "role": "ETS Directive (consolidated)",
+      "celex": "02003L0087-20240301",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2019-331",
+      "jurisdiction": "EU",
+      "regime": "ETS",
+      "instrument_type": "delegated_regulation",
+      "role": "FAR - free allocation rules (consolidated)",
+      "celex": "02019R0331-20240101",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2019-1842",
+      "jurisdiction": "EU",
+      "regime": "ETS",
+      "instrument_type": "implementing_regulation",
+      "role": "ALCR - activity level changes (consolidated)",
+      "celex": "02019R1842-20260101",
+      "language": "en",
+      "status": "in_force",
+      "tier": "A"
+    },
+    {
+      "id": "eu-2023-1773",
+      "jurisdiction": "EU",
+      "regime": "CBAM",
+      "instrument_type": "implementing_regulation",
+      "role": "Transitional-period reporting rules (superseded for definitive period by 2025/2547)",
+      "celex": "32023R1773",
+      "language": "en",
+      "status": "superseded",
+      "tier": "A"
+    },
+    {
+      "id": "tr-7552",
+      "jurisdiction": "TR",
+      "regime": "ETS",
+      "instrument_type": "statute",
+      "role": "Iklim Kanunu (Climate Law no. 7552) - legal basis for the Turkish ETS and SKDM",
+      "source_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7552&MevzuatTur=1&MevzuatTertip=5",
+      "language": "tr",
+      "status": "in_force",
+      "tier": "A",
+      "flags": ["non_eurlex"]
+    }
+  ],
+  "relations": [
+    {
+      "from": "tr-7552",
+      "to": "eu-2023-956",
+      "rel_type": "responds_to",
+      "note": "Turkish Climate Law establishes domestic ETS pilot and the SKDM mirror mechanism in response to EU CBAM exposure of Turkish exporters."
+    },
+    {
+      "from": "eu-2025-2547",
+      "to": "eu-2023-1773",
+      "rel_type": "supersedes",
+      "note": "Definitive-period monitoring rules replace transitional Reg 2023/1773. Do not cite 1773 for monitoring-plan content."
+    }
+  ]
+}

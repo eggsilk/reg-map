@@ -1,0 +1,35 @@
+name: regulatory-watch
+on:
+  schedule:
+    - cron: "0 6 * * 1,4"   # Monday and Thursday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Run watcher
+        run: python pipeline/watch.py
+      - name: Fetch any newly tracked documents
+        run: python pipeline/fetch.py || true
+      - name: Rebuild database and index
+        run: python pipeline/build_db.py
+      - name: Commit changes
+        run: |
+          git config user.name "reg-map watcher"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A ':!db'
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            NEW=$(python -c "import json; r=json.load(open('watch_report.json')); print(len(r['new_findings']))")
+            git commit -m "watch: $NEW new finding(s) $(date -u +%F)"
+            git push
+          fi
