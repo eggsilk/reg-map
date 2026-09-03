@@ -74,5 +74,8 @@
  "{\"celex\": \"32026R0065\", \"cites\": \"32023R0956\", \"type\": \"untracked_citing_act\"}",
  "{\"celex\": \"32026R0667\", \"cites\": \"32023R0956\", \"type\": \"untracked_citing_act\"}",
  "{\"doc\": \"eu-2023-1773\", \"have\": \"(base act)\", \"latest\": \"20241031\", \"type\": \"new_consolidation\"}",
- "{\"doc\": \"eu-2025-2621\", \"have\": \"(base act)\", \"latest\": \"20260101\", \"type\": \"new_consolidation\"}"
+ "{\"doc\": \"eu-2025-2621\", \"have\": \"(base act)\", \"latest\": \"20260101\", \"type\": \"new_consolidation\"}",
+ "{\"label\": \"CBAM webinar follow up: \\u201cBecome a CBAM verifier: all about accreditation and verification\\u201d\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"/news/cbam-webinar-follow-become-cbam-verifier-all-about-accreditation-and-verification-2026-07-31_en\"}",
+ "{\"label\": \"Guidance documents on CBAM implementation for installation operators outside the EU\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"/news/european-commission-publishes-series-guidance-documents-support-cbam-implementation-definitive-2026-08-14_en\"}",
+ "{\"label\": \"Guidance on CBAM verification and accreditation now available\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/european-commission-publishes-guidance-cbam-verifiers-and-accreditation-bodies-2026-08-24_en\"}"
 ]

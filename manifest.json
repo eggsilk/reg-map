@@ -158,6 +158,18 @@
       "flags": ["non_eurlex"]
     }
   ],
+  "watch_pages": [
+    {
+      "id": "ec-cbam-news",
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/cbam-communication-and-news_en",
+      "note": "Commission CBAM communication and news - guidance documents, webinars, announcements. Not covered by EUR-Lex."
+    },
+    {
+      "id": "ec-cbam-main",
+      "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+      "note": "Commission CBAM landing page - legislation and guidance sections."
+    }
+  ],
   "relations": [
     {
       "from": "tr-7552",

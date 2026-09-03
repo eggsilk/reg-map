@@ -106,13 +106,34 @@ def finding_key(f):
                       sort_keys=True)
 
 
+def check_watch_pages(man):
+    """Diff-watch listed web pages for new document/news links."""
+    import html as htmllib
+    findings, errors = [], []
+    for page in man.get("watch_pages", []):
+        try:
+            raw = fetch_url(page["url"])
+        except Exception as e:
+            errors.append(f"{page['id']}: {type(e).__name__}: {e}")
+            continue
+        for url, label in re.findall(r'href="([^"]+)"[^>]*>([^<]{5,150})<', raw):
+            if not any(k in url.lower() for k in
+                       ("/news/", ".pdf", "document/download", "/publications/")):
+                continue
+            label = re.sub(r"\s+", " ", htmllib.unescape(label)).strip()
+            findings.append({"type": "page_item", "page": page["id"],
+                             "label": label[:150], "url": url[:300]})
+    return findings, errors
+
+
 def main():
     man = load_manifest()
     seen = set(json.loads(SEEN.read_text(encoding="utf-8"))) if SEEN.exists() else set()
     all_findings, all_errors = [], []
     for name, fn in [("consolidations", lambda: check_consolidations(man)),
                      ("new_acts", lambda: check_new_acts(man)),
-                     ("tr_gazette", lambda: check_tr_gazette())]:
+                     ("tr_gazette", lambda: check_tr_gazette()),
+                     ("watch_pages", lambda: check_watch_pages(man))]:
         f, e = fn()
         all_findings += f
         all_errors += [f"[{name}] {x}" for x in e]
