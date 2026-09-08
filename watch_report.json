@@ -1,25 +1,8 @@
 {
-  "run": "2026-09-03T10:20:17",
-  "new_findings": [
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "Guidance on CBAM verification and accreditation now available",
-      "url": "https://taxation-customs.ec.europa.eu/news/european-commission-publishes-guidance-cbam-verifiers-and-accreditation-bodies-2026-08-24_en"
-    },
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "Guidance documents on CBAM implementation for installation operators outside the EU",
-      "url": "/news/european-commission-publishes-series-guidance-documents-support-cbam-implementation-definitive-2026-08-14_en"
-    },
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "CBAM webinar follow up: “Become a CBAM verifier: all about accreditation and verification”",
-      "url": "/news/cbam-webinar-follow-become-cbam-verifier-all-about-accreditation-and-verification-2026-07-31_en"
-    }
-  ],
-  "total_findings": 77,
-  "errors": []
+  "run": "2026-09-08T18:41:31",
+  "new_findings": [],
+  "total_findings": 81,
+  "errors": [
+    "[wb_edition] wb-cpd: TypeError: object of type 'NoneType' has no len()"
+  ]
 }

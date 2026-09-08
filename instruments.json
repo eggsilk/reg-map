@@ -4,7 +4,7 @@
     {"id": "src-mevzuat", "kind": "primary_text", "ref": "https://www.mevzuat.gov.tr", "license": "public-law", "fetched": "2026-09-01"},
     {"id": "src-eurlex", "kind": "primary_text", "ref": "https://eur-lex.europa.eu", "license": "public-law", "fetched": "2026-09-03"},
     {"id": "src-cellar", "kind": "cellar", "ref": "https://publications.europa.eu/webapi/rdf/sparql", "license": "public-law", "fetched": null},
-    {"id": "src-wb-cpd", "kind": "directory", "ref": "https://datacatalog.worldbank.org/search/dataset/0042051", "license": "cc-by-4.0", "fetched": null},
+    {"id": "src-wb-cpd", "kind": "directory", "ref": "https://datacatalog.worldbank.org/search/dataset/0042051", "license": "cc-by-4.0", "fetched": "2026-09-08"},
     {"id": "src-cclw", "kind": "directory", "ref": "https://climate-laws.org", "license": "cc-by-4.0", "fetched": null},
     {"id": "src-icap", "kind": "directory", "ref": "https://icapcarbonaction.com/en/ets", "license": "copyright-linkout", "fetched": null}
   ],

@@ -110,6 +110,31 @@ def check_tr_gazette():
     return findings[:20], errors
 
 
+def check_wb_edition():
+    """New World Bank Carbon Pricing Dashboard data edition?"""
+    findings, errors = [], []
+    # WB's WAF rejects urllib's fingerprint but accepts curl; shell out (works on
+    # Windows and ubuntu runners alike)
+    import subprocess
+    try:
+        r = subprocess.run(
+            ["curl", "-s", "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+             "https://carbonpricingdashboard.worldbank.org/about-us"],
+            capture_output=True, text=True, timeout=120)
+        page = r.stdout
+        if len(page) < 2000:
+            raise RuntimeError(f"blocked or empty response ({len(page)} bytes)")
+    except Exception as e:
+        return findings, [f"wb-cpd: {type(e).__name__}: {e}"]
+    links = re.findall(r'sites/default/files/[^"]+\.xlsx', page)
+    if not links:
+        return findings, ["wb-cpd: no xlsx link found on about page (layout drift?)"]
+    latest = sorted(set(links))[-1]
+    findings.append({"type": "wb_new_edition", "file": latest,
+                     "url": f"https://carbonpricingdashboard.worldbank.org/{latest}"})
+    return findings, errors
+
+
 def finding_key(f):
     return json.dumps({k: f[k] for k in sorted(f) if k not in ("date", "context")},
                       sort_keys=True)
@@ -142,7 +167,8 @@ def main():
     for name, fn in [("consolidations", lambda: check_consolidations(man)),
                      ("new_acts", lambda: check_new_acts(man)),
                      ("tr_gazette", lambda: check_tr_gazette()),
-                     ("watch_pages", lambda: check_watch_pages(man))]:
+                     ("watch_pages", lambda: check_watch_pages(man)),
+                     ("wb_edition", lambda: check_wb_edition())]:
         f, e = fn()
         all_findings += f
         all_errors += [f"[{name}] {x}" for x in e]

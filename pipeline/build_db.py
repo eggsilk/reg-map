@@ -16,6 +16,7 @@ from parse import segment_eu, segment_tr, extract_citations, act_key_from_celex
 ANNOTATIONS = ROOT / "annotations.json"
 INSTRUMENTS = ROOT / "instruments.json"
 CELLAR_REL = ROOT / "corpus" / "eu" / "cellar_relations.json"
+WB_CPD = ROOT / "corpus" / "directories" / "wb_cpd.json"
 INDEX_MD = ROOT / "INDEX.md"
 
 STATUS_ENUM = ("under_consideration", "under_development", "enabled_not_established",
@@ -234,6 +235,27 @@ def main():
                 "VALUES (?,?,?,?,?,?)",
                 (e["from"], e["to"], e["rel_type"], e.get("source"),
                  e.get("note"), e.get("publishable", 0)))
+
+    # World Bank directory layer: fills the world, never overrides curated rows (R2)
+    if WB_CPD.exists():
+        wbd = json.loads(WB_CPD.read_text(encoding="utf-8"))
+        for w in wbd.get("instruments", []):
+            existing = con.execute(
+                "SELECT status, status_source FROM instruments WHERE id=?",
+                (w["our_id"],)).fetchone()
+            if existing:
+                if existing[0] != w["status"]:
+                    print(f"R2 CONFLICT {w['our_id']}: curated '{existing[0]}' "
+                          f"(source {existing[1]}) vs WB '{w['status']}' — curated wins")
+                    stats["r2_conflicts"] = stats.get("r2_conflicts", 0) + 1
+                continue
+            con.execute(
+                "INSERT INTO instruments VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                (w["our_id"], w["name"], w["name"], w["jurisdiction_code"],
+                 w["instrument_type"], w["status"], "src-wb-cpd", None, None,
+                 wbd["run"], 1, None,
+                 json.dumps(["governing legislation not yet mapped"])))
+            stats["wb_instruments"] = stats.get("wb_instruments", 0) + 1
 
     if ANNOTATIONS.exists():
         for a in json.loads(ANNOTATIONS.read_text(encoding="utf-8")):

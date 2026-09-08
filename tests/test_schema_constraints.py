@@ -56,6 +56,25 @@ class RubricBackstops(unittest.TestCase):
             con.execute("INSERT INTO sources VALUES ('s2','directory','https://y','cc-by-nc',NULL)")
 
 
+class DirectoryMergePrecedence(unittest.TestCase):
+    """R2: a directory value never overrides a finer curated status (design/03)."""
+
+    def test_curated_status_survives_wb_merge(self):
+        from common import DB_PATH
+        con = sqlite3.connect(DB_PATH)
+        status, source = con.execute(
+            "SELECT status, status_source FROM instruments WHERE id='tr-ets'").fetchone()
+        self.assertEqual(status, "pilot_mandated", "WB's coarser 'under_development' must not win")
+        self.assertEqual(source, "src-mevzuat")
+
+    def test_wb_instruments_carry_directory_provenance(self):
+        from common import DB_PATH
+        con = sqlite3.connect(DB_PATH)
+        n = con.execute("SELECT COUNT(*) FROM instruments WHERE status_source='src-wb-cpd' "
+                        "AND last_checked IS NOT NULL").fetchone()[0]
+        self.assertGreater(n, 100)
+
+
 class SeedDataLoads(unittest.TestCase):
     def test_full_build_loads_four_instruments(self):
         from common import DB_PATH
