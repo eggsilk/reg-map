@@ -42,5 +42,20 @@ class BlockedResponseIsError(unittest.TestCase):
         self.assertEqual(findings[0]["latest"], "20260215")
 
 
+class WbEditionDecodeSafety(unittest.TestCase):
+    """Bug 2026-09-08: subprocess text=True decoded curl output as cp1252 on Windows;
+    one UTF-8 byte killed the reader thread and stdout came back None."""
+
+    def test_high_bit_bytes_do_not_break_the_channel(self):
+        payload = (b"x" * 3000 + b"\x9d\xe2\x80\x9c "
+                   b'href="sites/default/files/2026-08/Download_data_May_2026.xlsx"')
+        fake = mock.Mock(returncode=0, stdout=payload, stderr=b"")
+        with mock.patch("subprocess.run", return_value=fake):
+            findings, errors = watch.check_wb_edition()
+        self.assertEqual(errors, [])
+        self.assertEqual(len(findings), 1)
+        self.assertIn("Download_data_May_2026.xlsx", findings[0]["file"])
+
+
 if __name__ == "__main__":
     unittest.main()

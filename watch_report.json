@@ -1,8 +1,12 @@
 {
-  "run": "2026-09-08T18:41:31",
-  "new_findings": [],
-  "total_findings": 81,
-  "errors": [
-    "[wb_edition] wb-cpd: TypeError: object of type 'NoneType' has no len()"
-  ]
+  "run": "2026-09-08T18:42:17",
+  "new_findings": [
+    {
+      "type": "wb_new_edition",
+      "file": "sites/default/files/2026-08/Download_data_May_2026.xlsx",
+      "url": "https://carbonpricingdashboard.worldbank.org/sites/default/files/2026-08/Download_data_May_2026.xlsx"
+    }
+  ],
+  "total_findings": 82,
+  "errors": []
 }

@@ -120,8 +120,10 @@ def check_wb_edition():
         r = subprocess.run(
             ["curl", "-s", "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
              "https://carbonpricingdashboard.worldbank.org/about-us"],
-            capture_output=True, text=True, timeout=120)
-        page = r.stdout
+            capture_output=True, timeout=120)
+        # never text=True here: it decodes with the platform codepage (cp1252 on
+        # Windows) and a single UTF-8 byte kills the reader thread, yielding None
+        page = (r.stdout or b"").decode("utf-8", errors="replace")
         if len(page) < 2000:
             raise RuntimeError(f"blocked or empty response ({len(page)} bytes)")
     except Exception as e:
