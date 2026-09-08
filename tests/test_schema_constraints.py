@@ -75,6 +75,19 @@ class DirectoryMergePrecedence(unittest.TestCase):
         self.assertGreater(n, 100)
 
 
+class NoDuplicateActs(unittest.TestCase):
+    """Bug 2026-09-09: the CELLAR loader compared celex strings, so a consolidated id
+    (02018R2066-...) spawned a duplicate row for its own base act (32018R2066)."""
+
+    def test_one_document_row_per_act(self):
+        from common import DB_PATH
+        con = sqlite3.connect(DB_PATH)
+        dupes = con.execute(
+            "SELECT act_key, COUNT(*) c FROM documents WHERE act_key IS NOT NULL "
+            "GROUP BY act_key HAVING c > 1").fetchall()
+        self.assertEqual(dupes, [])
+
+
 class SeedDataLoads(unittest.TestCase):
     def test_full_build_loads_four_instruments(self):
         from common import DB_PATH

@@ -150,18 +150,19 @@ def main():
             if not m:
                 return None
             year, letter, num = m.group(1), m.group(2), int(m.group(3))
-            did = f"eu-{year}-{num}"
-            row = con.execute("SELECT celex FROM documents WHERE id=?", (did,)).fetchone()
+            kind = {"R": "regulation", "L": "directive", "D": "decision"}[letter]
+            # join on act_key, never on celex strings: a tracked doc may hold a
+            # consolidated celex (0YYYY...-date) for the same underlying act
+            row = con.execute("SELECT id FROM documents WHERE act_key=?",
+                              (f"{kind}:{year}/{num}",)).fetchone()
             if row:
-                if row[0] and celex not in row[0]:
-                    # same year/number, different act type: disambiguate
-                    did = f"eu-{year}-{letter.lower()}{num}"
-                    row = con.execute("SELECT 1 FROM documents WHERE id=?", (did,)).fetchone()
-                    if row:
-                        return did
-                else:
+                return row[0]
+            did = f"eu-{year}-{num}"
+            if con.execute("SELECT 1 FROM documents WHERE id=?", (did,)).fetchone():
+                # same year/number, different act type
+                did = f"eu-{year}-{letter.lower()}{num}"
+                if con.execute("SELECT 1 FROM documents WHERE id=?", (did,)).fetchone():
                     return did
-            kind = {"R": "regulation", "L": "directive", "D": "decision"}[m.group(2)]
             con.execute(
                 "INSERT INTO documents (id, jurisdiction, regime, instrument_type, role, celex, "
                 "act_key, language, status, tier, metadata_only, title, official_id) "
