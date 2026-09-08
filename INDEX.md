@@ -37,5 +37,4 @@ Generated 2026-09-08 by build_db.py. Every tracked document and instrument. The 
 
 ## Curated document relations
 
-- **tr-7552** responds_to **eu-2023-956** — Turkish Climate Law establishes domestic ETS pilot and the SKDM mirror mechanism in response to EU CBAM exposure of Turkish exporters.
 - **eu-2025-2547** supersedes **eu-2023-1773** — Definitive-period monitoring rules replace transitional Reg 2023/1773. Do not cite 1773 for monitoring-plan content.

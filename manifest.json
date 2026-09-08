@@ -172,12 +172,6 @@
   ],
   "relations": [
     {
-      "from": "tr-7552",
-      "to": "eu-2023-956",
-      "rel_type": "responds_to",
-      "note": "Turkish Climate Law establishes domestic ETS pilot and the SKDM mirror mechanism in response to EU CBAM exposure of Turkish exporters."
-    },
-    {
       "from": "eu-2025-2547",
       "to": "eu-2023-1773",
       "rel_type": "supersedes",
