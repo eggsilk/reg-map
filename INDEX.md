@@ -1,8 +1,17 @@
 # Document Index
 
-Generated 2026-09-01 by build_db.py. Every tracked document, by jurisdiction. The database (db/regmap.db) is derived from the corpus and this manifest; rebuild with `py pipeline/build_db.py`.
+Generated 2026-09-08 by build_db.py. Every tracked document and instrument. The database (db/regmap.db) is derived; rebuild with `py pipeline/build_db.py`.
 
-## EU
+## Instruments
+
+| id | name | jurisdiction | type | status |
+|---|---|---|---|---|
+| eu-cbam | EU Carbon Border Adjustment Mechanism | EU | border_mechanism | in_force |
+| eu-ets | EU Emissions Trading System | EU | ets | in_force |
+| tr-ets | Turkey Emissions Trading System | TR | ets | pilot_mandated |
+| tr-skdm | Turkey Border Carbon Regulation Mechanism (SKDM) | TR | border_mechanism | enabled_not_established |
+
+## Documents — EU
 
 | id | regime | type | status | role | units | notes |
 |---|---|---|---|---|---|---|
@@ -20,13 +29,13 @@ Generated 2026-09-01 by build_db.py. Every tracked document, by jurisdiction. Th
 | eu-2019-1842 | ETS | implementing_regulation | in_force | ALCR - activity level changes (consolidated) | 16 |  |
 | eu-2023-1773 | CBAM | implementing_regulation | superseded | Transitional-period reporting rules (superseded for definitive period by 2025/2547) | 50 |  |
 
-## TR
+## Documents — TR
 
 | id | regime | type | status | role | units | notes |
 |---|---|---|---|---|---|---|
 | tr-7552 | ETS | statute | in_force | Iklim Kanunu (Climate Law no. 7552) - legal basis for the Turkish ETS and SKDM | 21 | non_eurlex |
 
-## Cross-document relations (curated)
+## Curated document relations
 
 - **tr-7552** responds_to **eu-2023-956** — Turkish Climate Law establishes domestic ETS pilot and the SKDM mirror mechanism in response to EU CBAM exposure of Turkish exporters.
 - **eu-2025-2547** supersedes **eu-2023-1773** — Definitive-period monitoring rules replace transitional Reg 2023/1773. Do not cite 1773 for monitoring-plan content.

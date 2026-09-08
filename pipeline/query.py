@@ -73,13 +73,14 @@ def doc_overview(con, doc_id):
                     "FROM documents WHERE id=?", (doc_id,)).fetchone()
     print(f"\n=== {d[0]} ({d[1]}, {d[2]}, {d[4]}) ===\n{d[3]}\nUnits: {d[5]}  act_key: {d[6]}")
     inb = con.execute("SELECT from_doc, COUNT(*) FROM edges WHERE to_doc=? AND internal=0 "
-                      "GROUP BY from_doc ORDER BY 2 DESC", (doc_id,)).fetchall()
+                      "AND rel_type='cites' GROUP BY from_doc ORDER BY 2 DESC", (doc_id,)).fetchall()
     if inb:
         print("\nCited by:")
         for fd, n in inb:
             print(f"  <- {fd}  ×{n}")
     outb = con.execute("SELECT COALESCE(to_doc, '(untracked) '||to_key), COUNT(*) FROM edges "
-                       "WHERE from_doc=? AND internal=0 GROUP BY 1 ORDER BY 2 DESC LIMIT 15",
+                       "WHERE from_doc=? AND internal=0 AND rel_type='cites' "
+                       "GROUP BY 1 ORDER BY 2 DESC LIMIT 15",
                        (doc_id,)).fetchall()
     if outb:
         print("\nCites:")
@@ -92,12 +93,21 @@ def doc_overview(con, doc_id):
         print("\nAnnotations:")
         for ul, note in anns:
             print(f"  [{ul or 'document'}] {note[:160]}{'…' if len(note) > 160 else ''}")
-    rels = con.execute("SELECT from_doc, to_doc, rel_type, note FROM relations "
-                       "WHERE from_doc=? OR to_doc=?", (doc_id, doc_id)).fetchall()
+    rels = con.execute("SELECT from_doc, to_doc, rel_type, COALESCE(raw,'') FROM edges "
+                       "WHERE rel_type != 'cites' AND (from_doc=? OR to_doc=?)",
+                       (doc_id, doc_id)).fetchall()
     if rels:
         print("\nRelations:")
         for fd, td, rt, note in rels:
             print(f"  {fd} —{rt}→ {td}: {note[:120]}")
+    instr = con.execute(
+        "SELECT i.id, i.name_en, di.role, i.status FROM doc_instrument di "
+        "JOIN instruments i ON i.id = di.instrument_id WHERE di.doc_id=?",
+        (doc_id,)).fetchall()
+    if instr:
+        print("\nInstruments:")
+        for iid, name, role, status in instr:
+            print(f"  {iid} ({status}) — this document is its {role}")
 
 
 def main():
