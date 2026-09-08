@@ -30,6 +30,15 @@ def base_celex(celex):
     return f"3{m.group(1)}" if m else celex
 
 
+def guarded_fetch(url, min_bytes=5000):
+    """EUR-Lex and other hosts answer bot-blocks with HTTP 200/202 and an empty or
+    tiny body. Treat that as a failure, never as an empty result."""
+    page = fetch_url(url)
+    if len(page) < min_bytes:
+        raise RuntimeError(f"blocked or empty response ({len(page)} bytes)")
+    return page
+
+
 def check_consolidations(man):
     findings, errors = [], []
     for doc in man["documents"]:
@@ -38,9 +47,9 @@ def check_consolidations(man):
             continue
         current = re.search(r"-(\d{8})$", celex)
         try:
-            page = fetch_url(EURLEX_OVERVIEW.format(celex=base_celex(celex)))
+            page = guarded_fetch(EURLEX_OVERVIEW.format(celex=base_celex(celex)))
         except Exception as e:
-            errors.append(f"{doc['id']}: overview fetch failed ({type(e).__name__})")
+            errors.append(f"{doc['id']}: overview fetch failed ({type(e).__name__}: {e})")
             continue
         versions = sorted(set(re.findall(r"0\d{4}[RLD]\d{4}-(\d{8})", page)))
         if not versions:
@@ -89,7 +98,7 @@ def check_tr_gazette():
     today = datetime.date.today()
     url = f"https://www.resmigazete.gov.tr/{today.strftime('%d.%m.%Y')}"
     try:
-        page = fetch_url(url)
+        page = guarded_fetch(url, min_bytes=2000)
     except Exception as e:
         return findings, [f"resmigazete: {type(e).__name__}: {e}"]
     text = re.sub(r"<[^>]+>", " ", page)
@@ -112,7 +121,7 @@ def check_watch_pages(man):
     findings, errors = [], []
     for page in man.get("watch_pages", []):
         try:
-            raw = fetch_url(page["url"])
+            raw = guarded_fetch(page["url"])
         except Exception as e:
             errors.append(f"{page['id']}: {type(e).__name__}: {e}")
             continue
