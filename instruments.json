@@ -88,6 +88,7 @@
     {"doc": "tr-7552", "instrument": "tr-skdm", "role": "legal_basis"}
   ],
   "instrument_edges": [
+    {"from": "ch-ets", "to": "eu-ets", "rel_type": "linked_by_treaty", "source": "src-wb-cpd", "publishable": 1, "note": "Linked since January 2020; covered entities in each system can use the other's allowances for compliance (WB CPD, May 2026 edition)."},
     {"from": "tr-ets", "to": "eu-ets", "rel_type": "modeled_on", "source": null, "publishable": 0, "note": "Pending: directory factsheet or primary-text basis required before this edge renders."},
     {"from": "tr-skdm", "to": "eu-cbam", "rel_type": "responds_to", "source": null, "publishable": 0, "note": "Pending: needs a citable source; our own market thesis is not a source."}
   ]
