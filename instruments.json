@@ -7,7 +7,7 @@
     {"id": "src-wb-cpd", "kind": "directory", "ref": "https://datacatalog.worldbank.org/search/dataset/0042051", "license": "cc-by-4.0", "fetched": "2026-09-08"},
     {"id": "src-cclw", "kind": "directory", "ref": "https://climate-laws.org", "license": "cc-by-4.0", "fetched": null},
     {"id": "src-icap", "kind": "directory", "ref": "https://icapcarbonaction.com/en/ets", "license": "copyright-linkout", "fetched": null},
-    {"id": "src-uk-legislation", "kind": "primary_text", "ref": "https://www.legislation.gov.uk", "license": "public-law", "fetched": "2026-09-09"}
+    {"id": "src-uk-legislation", "kind": "primary_text", "ref": "https://www.legislation.gov.uk", "license": "public-law", "fetched": "2026-09-08"}
   ],
   "instruments": [
     {
@@ -65,7 +65,7 @@
       "status_source": "src-uk-legislation",
       "status_basis_doc": "uk-fa-2026-part5",
       "status_basis_unit": null,
-      "last_checked": "2026-09-09",
+      "last_checked": "2026-09-08",
       "publishable": 1,
       "notes": "Enacted as Part 5 of the Finance Act 2026; charges to CBAM arise from 1 January 2027 (SI 2026/830, SI 2026/802 both in force 1 Jan 2027).",
       "unverified": []
@@ -103,6 +103,14 @@
     {"doc": "eu-2025-2551", "instrument": "eu-cbam", "role": "delegated_regulation"},
     {"doc": "eu-2024-2620", "instrument": "eu-cbam", "role": "delegated_regulation"},
     {"doc": "eu-2023-1773", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-486", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-2210", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-2548", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-2549", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-2550", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2025-2619", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2024-3210", "instrument": "eu-cbam", "role": "implementing_regulation"},
+    {"doc": "eu-2026-1740", "instrument": "eu-cbam", "role": "implementing_regulation"},
     {"doc": "tr-7552", "instrument": "tr-ets", "role": "legal_basis"},
     {"doc": "tr-7552", "instrument": "tr-skdm", "role": "legal_basis"}
   ],

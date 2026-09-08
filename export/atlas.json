@@ -1,0 +1,3012 @@
+{
+ "generated": "2026-09-08",
+ "counts": {
+  "instruments": 141,
+  "jurisdictions": 119
+ },
+ "attributions": [
+  "Contains data from the World Bank Carbon Pricing Dashboard, licensed CC BY 4.0.",
+  "EU legal metadata and texts: EUR-Lex / EU Publications Office. UK legislation: legislation.gov.uk. Turkish legislation: mevzuat.gov.tr."
+ ],
+ "sources": {
+  "src-mevzuat": {
+   "ref": "https://www.mevzuat.gov.tr",
+   "license": "public-law"
+  },
+  "src-eurlex": {
+   "ref": "https://eur-lex.europa.eu",
+   "license": "public-law"
+  },
+  "src-cellar": {
+   "ref": "https://publications.europa.eu/webapi/rdf/sparql",
+   "license": "public-law"
+  },
+  "src-wb-cpd": {
+   "ref": "https://datacatalog.worldbank.org/search/dataset/0042051",
+   "license": "cc-by-4.0"
+  },
+  "src-cclw": {
+   "ref": "https://climate-laws.org",
+   "license": "cc-by-4.0"
+  },
+  "src-icap": {
+   "ref": "https://icapcarbonaction.com/en/ets",
+   "license": "copyright-linkout"
+  },
+  "src-uk-legislation": {
+   "ref": "https://www.legislation.gov.uk",
+   "license": "public-law"
+  }
+ },
+ "instruments": [
+  {
+   "id": "al-carbon-tax",
+   "name": "Albania carbon tax",
+   "name_local": "Albania carbon tax",
+   "jurisdiction": "AL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "al-ets",
+   "name": "Albania ETS",
+   "name_local": "Albania ETS",
+   "jurisdiction": "AL",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "an-carbon-tax",
+   "name": "Andorra carbon tax",
+   "name_local": "Andorra carbon tax",
+   "jurisdiction": "AN",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ar-carbon-tax",
+   "name": "Argentina carbon tax",
+   "name_local": "Argentina carbon tax",
+   "jurisdiction": "AR",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ar-ets",
+   "name": "Argentina ETS",
+   "name_local": "Argentina ETS",
+   "jurisdiction": "AR",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "at-ets",
+   "name": "Austria ETS",
+   "name_local": "Austria ETS",
+   "jurisdiction": "AT",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "au1-ets",
+   "name": "Australia CPM",
+   "name_local": "Australia CPM",
+   "jurisdiction": "AU1",
+   "type": "ets",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "au2-ets",
+   "name": "Australia Safeguard Mechanism",
+   "name_local": "Australia Safeguard Mechanism",
+   "jurisdiction": "AU2",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "bh-carbon-tax",
+   "name": "Bahrain carbon tax",
+   "name_local": "Bahrain carbon tax",
+   "jurisdiction": "BH",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "bo-ets",
+   "name": "Bolivia ETS",
+   "name_local": "Bolivia ETS",
+   "jurisdiction": "BO",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "br-ets",
+   "name": "Brazil ETS",
+   "name_local": "Brazil ETS",
+   "jurisdiction": "BR",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "bw-carbon-tax",
+   "name": "Botswana carbon tax",
+   "name_local": "Botswana carbon tax",
+   "jurisdiction": "BW",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-carbon-tax",
+   "name": "Canada federal fuel charge",
+   "name_local": "Canada federal fuel charge",
+   "jurisdiction": "CA",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-ets",
+   "name": "Canada federal OBPS",
+   "name_local": "Canada federal OBPS",
+   "jurisdiction": "CA",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-alberta-carbon-tax",
+   "name": "Alberta carbon tax",
+   "name_local": "Alberta carbon tax",
+   "jurisdiction": "CA-ALBERTA",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-alberta-ets",
+   "name": "Alberta TIER",
+   "name_local": "Alberta TIER",
+   "jurisdiction": "CA-ALBERTA",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-bc-carbon-tax",
+   "name": "BC carbon tax",
+   "name_local": "BC carbon tax",
+   "jurisdiction": "CA-BC",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-bc-ets",
+   "name": "BC OBPS",
+   "name_local": "BC OBPS",
+   "jurisdiction": "CA-BC",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-nb-carbon-tax",
+   "name": "New Brunswick carbon tax",
+   "name_local": "New Brunswick carbon tax",
+   "jurisdiction": "CA-NB",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-nb-ets",
+   "name": "New Brunswick OBPS",
+   "name_local": "New Brunswick OBPS",
+   "jurisdiction": "CA-NB",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-nl-carbon-tax",
+   "name": "Newfoundland and Labrador carbon tax",
+   "name_local": "Newfoundland and Labrador carbon tax",
+   "jurisdiction": "CA-NL",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-nl-ets",
+   "name": "Newfoundland and Labrador PSS",
+   "name_local": "Newfoundland and Labrador PSS",
+   "jurisdiction": "CA-NL",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-ns-ets",
+   "name": "Nova Scotia OBPS",
+   "name_local": "Nova Scotia OBPS",
+   "jurisdiction": "CA-NS",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-nt-carbon-tax",
+   "name": "Northwest Territories carbon tax",
+   "name_local": "Northwest Territories carbon tax",
+   "jurisdiction": "CA-NT",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-ontario-ets",
+   "name": "Ontario CaT",
+   "name_local": "Ontario CaT",
+   "jurisdiction": "CA-ONTARIO",
+   "type": "ets",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-ontario2-ets",
+   "name": "Ontario EPS",
+   "name_local": "Ontario EPS",
+   "jurisdiction": "CA-ONTARIO2",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-pe-carbon-tax",
+   "name": "Prince Edward Island carbon tax",
+   "name_local": "Prince Edward Island carbon tax",
+   "jurisdiction": "CA-PE",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-quebec-ets",
+   "name": "Quebec CaT",
+   "name_local": "Quebec CaT",
+   "jurisdiction": "CA-QUEBEC",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca-sk-ets",
+   "name": "Saskatchewan OBPS",
+   "name_local": "Saskatchewan OBPS",
+   "jurisdiction": "CA-SK",
+   "type": "ets",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ca2-ets",
+   "name": "Canada ETS",
+   "name_local": "Canada ETS",
+   "jurisdiction": "CA2",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cat-carbon-tax",
+   "name": "Catalonia carbon tax",
+   "name_local": "Catalonia carbon tax",
+   "jurisdiction": "CAT",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cd-carbon-tax",
+   "name": "Côte d’Ivoire carbon tax",
+   "name_local": "Côte d’Ivoire carbon tax",
+   "jurisdiction": "CD",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ch-carbon-tax",
+   "name": "Switzerland carbon tax",
+   "name_local": "Switzerland carbon tax",
+   "jurisdiction": "CH",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ch-ets",
+   "name": "Switzerland ETS",
+   "name_local": "Switzerland ETS",
+   "jurisdiction": "CH",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [
+    {
+     "phrase": "linked by treaty with",
+     "other": "eu-ets",
+     "other_name": "EU Emissions Trading System",
+     "note": "Linked since January 2020; covered entities in each system can use the other's allowances for compliance (WB CPD, May 2026 edition).",
+     "source": "src-wb-cpd"
+    }
+   ],
+   "curated": false
+  },
+  {
+   "id": "cl-carbon-tax",
+   "name": "Chile carbon tax",
+   "name_local": "Chile carbon tax",
+   "jurisdiction": "CL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cl-ets",
+   "name": "Chile ETS",
+   "name_local": "Chile ETS",
+   "jurisdiction": "CL",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-ets",
+   "name": "China national ETS",
+   "name_local": "China national ETS",
+   "jurisdiction": "CN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-beijing-ets",
+   "name": "Beijing pilot ETS",
+   "name_local": "Beijing pilot ETS",
+   "jurisdiction": "CN-BEIJING",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-chongqing-ets",
+   "name": "Chongqing pilot ETS",
+   "name_local": "Chongqing pilot ETS",
+   "jurisdiction": "CN-CHONGQING",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-fujian-ets",
+   "name": "Fujian pilot ETS",
+   "name_local": "Fujian pilot ETS",
+   "jurisdiction": "CN-FUJIAN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-guangdong-ets",
+   "name": "Guangdong pilot ETS",
+   "name_local": "Guangdong pilot ETS",
+   "jurisdiction": "CN-GUANGDONG",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-hubei-ets",
+   "name": "Hubei pilot ETS",
+   "name_local": "Hubei pilot ETS",
+   "jurisdiction": "CN-HUBEI",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-shanghai-ets",
+   "name": "Shanghai pilot ETS",
+   "name_local": "Shanghai pilot ETS",
+   "jurisdiction": "CN-SHANGHAI",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-shenzhen-ets",
+   "name": "Shenzhen pilot ETS",
+   "name_local": "Shenzhen pilot ETS",
+   "jurisdiction": "CN-SHENZHEN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-taiwan-carbon-tax",
+   "name": "Taiwan, China carbon fee",
+   "name_local": "Taiwan, China carbon fee",
+   "jurisdiction": "CN-TAIWAN",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-taiwan-ets",
+   "name": "Taiwan, China ETS",
+   "name_local": "Taiwan, China ETS",
+   "jurisdiction": "CN-TAIWAN",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "cn-tianjin-ets",
+   "name": "Tianjin pilot ETS",
+   "name_local": "Tianjin pilot ETS",
+   "jurisdiction": "CN-TIANJIN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "co-carbon-tax",
+   "name": "Colombia carbon tax",
+   "name_local": "Colombia carbon tax",
+   "jurisdiction": "CO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "co-ets",
+   "name": "Colombia ETS",
+   "name_local": "Colombia ETS",
+   "jurisdiction": "CO",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "de-ets",
+   "name": "Germany ETS",
+   "name_local": "Germany ETS",
+   "jurisdiction": "DE",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "dk-carbon-tax",
+   "name": "Denmark carbon tax",
+   "name_local": "Denmark carbon tax",
+   "jurisdiction": "DK",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "do-ets",
+   "name": "Dominican Republic ETS",
+   "name_local": "Dominican Republic ETS",
+   "jurisdiction": "DO",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ee-carbon-tax",
+   "name": "Estonia carbon tax",
+   "name_local": "Estonia carbon tax",
+   "jurisdiction": "EE",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "es-carbon-tax",
+   "name": "Spain carbon tax",
+   "name_local": "Spain carbon tax",
+   "jurisdiction": "ES",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "eu-cbam",
+   "name": "EU Carbon Border Adjustment Mechanism",
+   "name_local": "EU Carbon Border Adjustment Mechanism",
+   "jurisdiction": "EU",
+   "type": "border_mechanism",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": {
+    "doc": "eu-2023-956",
+    "unit": null
+   },
+   "notes": "Definitive period applies from 1 Jan 2026; first declaration and surrender 2027.",
+   "unverified": [],
+   "documents": [
+    {
+     "id": "eu-2024-2620",
+     "label": "Permanently chemically bound CO2 - eligible products list",
+     "role": "delegated_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2620"
+    },
+    {
+     "id": "eu-2025-2551",
+     "label": "Verifier accreditation + verification process rulebook",
+     "role": "delegated_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2551"
+    },
+    {
+     "id": "eu-2023-1773",
+     "label": "Transitional-period reporting rules (superseded for definitive period by 2025/2547)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "superseded",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1773"
+    },
+    {
+     "id": "eu-2024-3210",
+     "label": "Application rules under 2023/956 (Dec 2024; registry)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3210"
+    },
+    {
+     "id": "eu-2025-2210",
+     "label": "Application rules under 2023/956 (Oct 2025)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2210"
+    },
+    {
+     "id": "eu-2025-2546",
+     "label": "Verification specifics + report template",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2546"
+    },
+    {
+     "id": "eu-2025-2547",
+     "label": "Monitoring and reporting for the definitive period (the CBAM MRR)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2547"
+    },
+    {
+     "id": "eu-2025-2548",
+     "label": "Application rules under 2023/956 (Dec 2025; certificate pricing)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2548"
+    },
+    {
+     "id": "eu-2025-2549",
+     "label": "Amends and corrects IR 2025/486",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2549"
+    },
+    {
+     "id": "eu-2025-2550",
+     "label": "Amends and corrects IR 2024/3210 (registry)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2550"
+    },
+    {
+     "id": "eu-2025-2619",
+     "label": "Application rules under 2023/956 (Dec 2025)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2619"
+    },
+    {
+     "id": "eu-2025-2620",
+     "label": "Benchmarks + free-allocation adjustment",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2620"
+    },
+    {
+     "id": "eu-2025-2621",
+     "label": "Default values (very large; tables); Annexes I+IV corrected by 2026/1740",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2621"
+    },
+    {
+     "id": "eu-2025-486",
+     "label": "Application rules under 2023/956 (Mar 2025)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0486"
+    },
+    {
+     "id": "eu-2026-1740",
+     "label": "Corrects IR 2025/2621 Annexes I and IV (default values)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1740"
+    },
+    {
+     "id": "eu-2023-956",
+     "label": "CBAM basic act (consolidated, incl. Omnibus 2025/2083)",
+     "role": "legal_basis",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0956",
+     "amendments": 1,
+     "corrigenda": 4,
+     "pending_proposals": [
+      "52025PC0087",
+      "52025PC0989"
+     ]
+    }
+   ],
+   "edges": [],
+   "curated": true
+  },
+  {
+   "id": "eu-ets",
+   "name": "EU Emissions Trading System",
+   "name_local": "EU Emissions Trading System",
+   "jurisdiction": "EU",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": {
+    "doc": "eu-2003-87",
+    "unit": null
+   },
+   "notes": null,
+   "unverified": [],
+   "documents": [
+    {
+     "id": "eu-2019-331",
+     "label": "FAR - free allocation rules (consolidated)",
+     "role": "delegated_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0331"
+    },
+    {
+     "id": "eu-2018-2066",
+     "label": "MRR - monitoring and reporting (consolidated)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R2066"
+    },
+    {
+     "id": "eu-2018-2067",
+     "label": "AVR - accreditation and verification (consolidated, incl. ETS2 Ch IIIa)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018R2067"
+    },
+    {
+     "id": "eu-2019-1842",
+     "label": "ALCR - activity level changes (consolidated)",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1842"
+    },
+    {
+     "id": "eu-2003-87",
+     "label": "ETS Directive (consolidated)",
+     "role": "legal_basis",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0087",
+     "amendments": 17,
+     "corrigenda": 6,
+     "pending_proposals": [
+      "52006PC0818",
+      "52007PC0824",
+      "52008PC0016",
+      "52012PC0416",
+      "52012PC0697",
+      "52013PC0722",
+      "52014PC0020",
+      "52015PC0337",
+      "52016PC0789",
+      "52017PC0054",
+      "52021PC0552",
+      "52021PC0551",
+      "52021PC0567",
+      "52022PC0231",
+      "52023PC0335",
+      "52026PC0616",
+      "52026PC0619"
+     ]
+    }
+   ],
+   "edges": [
+    {
+     "phrase": "linked by treaty with",
+     "other": "ch-ets",
+     "other_name": "Switzerland ETS",
+     "note": "Linked since January 2020; covered entities in each system can use the other's allowances for compliance (WB CPD, May 2026 edition).",
+     "source": "src-wb-cpd"
+    },
+    {
+     "phrase": "negotiating a link with",
+     "other": "uk-ets",
+     "other_name": "UK ETS",
+     "note": "May 2025: UK and EU announced their intention to work towards linking the two systems, including conditions for mutual CBAM exemptions; formal linkage not yet established (WB CPD, May 2026 edition).",
+     "source": "src-wb-cpd"
+    }
+   ],
+   "curated": true
+  },
+  {
+   "id": "eu-is-ets",
+   "name": "EU ETS",
+   "name_local": "EU ETS",
+   "jurisdiction": "EU-IS",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "eu-li-ets",
+   "name": "EU ETS",
+   "name_local": "EU ETS",
+   "jurisdiction": "EU-LI",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "eu-no-ets",
+   "name": "EU ETS",
+   "name_local": "EU ETS",
+   "jurisdiction": "EU-NO",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "eu2-ets",
+   "name": "EU ETS2",
+   "name_local": "EU ETS2",
+   "jurisdiction": "EU2",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "fi-carbon-tax",
+   "name": "Finland carbon tax",
+   "name_local": "Finland carbon tax",
+   "jurisdiction": "FI",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "fr-carbon-tax",
+   "name": "France carbon tax",
+   "name_local": "France carbon tax",
+   "jurisdiction": "FR",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "gy-carbon-tax",
+   "name": "Guyana carbon tax",
+   "name_local": "Guyana carbon tax",
+   "jurisdiction": "GY",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "hu-carbon-tax",
+   "name": "Hungary carbon tax",
+   "name_local": "Hungary carbon tax",
+   "jurisdiction": "HU",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "id-carbon-tax",
+   "name": "Indonesia carbon tax",
+   "name_local": "Indonesia carbon tax",
+   "jurisdiction": "ID",
+   "type": "carbon_tax",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "id-ets",
+   "name": "Indonesia ETS",
+   "name_local": "Indonesia ETS",
+   "jurisdiction": "ID",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ie-carbon-tax",
+   "name": "Ireland carbon tax",
+   "name_local": "Ireland carbon tax",
+   "jurisdiction": "IE",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "il-carbon-tax",
+   "name": "Israel carbon tax",
+   "name_local": "Israel carbon tax",
+   "jurisdiction": "IL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "in-ets",
+   "name": "India ETS",
+   "name_local": "India ETS",
+   "jurisdiction": "IN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "is-carbon-tax",
+   "name": "Iceland carbon tax",
+   "name_local": "Iceland carbon tax",
+   "jurisdiction": "IS",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "jp-carbon-tax",
+   "name": "Japan carbon tax",
+   "name_local": "Japan carbon tax",
+   "jurisdiction": "JP",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "jp-ets",
+   "name": "Japan ETS",
+   "name_local": "Japan ETS",
+   "jurisdiction": "JP",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "jp-saitama-ets",
+   "name": "Saitama ETS",
+   "name_local": "Saitama ETS",
+   "jurisdiction": "JP-SAITAMA",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "jp-tokyo-ets",
+   "name": "Tokyo CaT",
+   "name_local": "Tokyo CaT",
+   "jurisdiction": "JP-TOKYO",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ke-carbon-tax",
+   "name": "Kenya carbon tax",
+   "name_local": "Kenya carbon tax",
+   "jurisdiction": "KE",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "kr-ets",
+   "name": "Korea ETS",
+   "name_local": "Korea ETS",
+   "jurisdiction": "KR",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "kz-ets",
+   "name": "Kazakhstan ETS",
+   "name_local": "Kazakhstan ETS",
+   "jurisdiction": "KZ",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "li-carbon-tax",
+   "name": "Liechtenstein carbon tax",
+   "name_local": "Liechtenstein carbon tax",
+   "jurisdiction": "LI",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "lt-carbon-tax",
+   "name": "Latvia carbon Tax",
+   "name_local": "Latvia carbon Tax",
+   "jurisdiction": "LT",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "lu-carbon-tax",
+   "name": "Luxembourg carbon tax",
+   "name_local": "Luxembourg carbon tax",
+   "jurisdiction": "LU",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ma-carbon-tax",
+   "name": "Morocco carbon tax",
+   "name_local": "Morocco carbon tax",
+   "jurisdiction": "MA",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mo-ets",
+   "name": "Montenegro ETS",
+   "name_local": "Montenegro ETS",
+   "jurisdiction": "MO",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mr-carbon-tax",
+   "name": "Mauritania carbon tax",
+   "name_local": "Mauritania carbon tax",
+   "jurisdiction": "MR",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-carbon-tax",
+   "name": "Mexico carbon tax",
+   "name_local": "Mexico carbon tax",
+   "jurisdiction": "MX",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-ets",
+   "name": "Mexico ETS",
+   "name_local": "Mexico ETS",
+   "jurisdiction": "MX",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-bc-carbon-tax",
+   "name": "Baja California carbon tax",
+   "name_local": "Baja California carbon tax",
+   "jurisdiction": "MX-BC",
+   "type": "carbon_tax",
+   "status": "abolished",
+   "status_label": "abolished",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-colima-carbon-tax",
+   "name": "Colima carbon tax",
+   "name_local": "Colima carbon tax",
+   "jurisdiction": "MX-COLIMA",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-durango-carbon-tax",
+   "name": "Durango carbon tax",
+   "name_local": "Durango carbon tax",
+   "jurisdiction": "MX-DURANGO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-guanajuato-carbon-tax",
+   "name": "Guanajuato carbon tax",
+   "name_local": "Guanajuato carbon tax",
+   "jurisdiction": "MX-GUANAJUATO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-ja-carbon-tax",
+   "name": "Jalisco carbon tax",
+   "name_local": "Jalisco carbon tax",
+   "jurisdiction": "MX-JA",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-mc-carbon-tax",
+   "name": "Mexico City carbon tax",
+   "name_local": "Mexico City carbon tax",
+   "jurisdiction": "MX-MC",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-mo-carbon-tax",
+   "name": "Morelos carbon tax",
+   "name_local": "Morelos carbon tax",
+   "jurisdiction": "MX-MO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-queretaro-carbon-tax",
+   "name": "Queretaro carbon tax",
+   "name_local": "Queretaro carbon tax",
+   "jurisdiction": "MX-QUERETARO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-slp-carbon-tax",
+   "name": "San Luis Potosí carbon tax",
+   "name_local": "San Luis Potosí carbon tax",
+   "jurisdiction": "MX-SLP",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-somexico-carbon-tax",
+   "name": "State of Mexico carbon tax",
+   "name_local": "State of Mexico carbon tax",
+   "jurisdiction": "MX-SOMEXICO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-ta-carbon-tax",
+   "name": "Tamaulipas carbon tax",
+   "name_local": "Tamaulipas carbon tax",
+   "jurisdiction": "MX-TA",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-yucatan-carbon-tax",
+   "name": "Yucatan carbon tax",
+   "name_local": "Yucatan carbon tax",
+   "jurisdiction": "MX-YUCATAN",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "mx-za-carbon-tax",
+   "name": "Zacatecas carbon tax",
+   "name_local": "Zacatecas carbon tax",
+   "jurisdiction": "MX-ZA",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "my-carbon-tax",
+   "name": "Malaysia carbon tax",
+   "name_local": "Malaysia carbon tax",
+   "jurisdiction": "MY",
+   "type": "carbon_tax",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "my-ets",
+   "name": "Malaysia ETS",
+   "name_local": "Malaysia ETS",
+   "jurisdiction": "MY",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ng-carbon-tax",
+   "name": "Nigeria carbon tax",
+   "name_local": "Nigeria carbon tax",
+   "jurisdiction": "NG",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "nl-carbon-tax",
+   "name": "Netherlands carbon tax",
+   "name_local": "Netherlands carbon tax",
+   "jurisdiction": "NL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "no-carbon-tax",
+   "name": "Norway carbon tax",
+   "name_local": "Norway carbon tax",
+   "jurisdiction": "NO",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "nz-carbon-tax",
+   "name": "New Zealand carbon tax",
+   "name_local": "New Zealand carbon tax",
+   "jurisdiction": "NZ",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "nz-ets",
+   "name": "New Zealand ETS",
+   "name_local": "New Zealand ETS",
+   "jurisdiction": "NZ",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ph-ets",
+   "name": "Philippines ETS",
+   "name_local": "Philippines ETS",
+   "jurisdiction": "PH",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "pk-ets",
+   "name": "Pakistan ETS",
+   "name_local": "Pakistan ETS",
+   "jurisdiction": "PK",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "pl-carbon-tax",
+   "name": "Poland carbon tax",
+   "name_local": "Poland carbon tax",
+   "jurisdiction": "PL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "pt-carbon-tax",
+   "name": "Portugal carbon tax",
+   "name_local": "Portugal carbon tax",
+   "jurisdiction": "PT",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "py-carbon-tax",
+   "name": "Paraguay carbon tax",
+   "name_local": "Paraguay carbon tax",
+   "jurisdiction": "PY",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "rggi-ets",
+   "name": "RGGI",
+   "name_local": "RGGI",
+   "jurisdiction": "RGGI",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "rs-carbon-tax",
+   "name": "Serbia carbon tax",
+   "name_local": "Serbia carbon tax",
+   "jurisdiction": "RS",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ru-sakhalin-ets",
+   "name": "Sakhalin ETS",
+   "name_local": "Sakhalin ETS",
+   "jurisdiction": "RU-SAKHALIN",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "se-carbon-tax",
+   "name": "Sweden carbon tax",
+   "name_local": "Sweden carbon tax",
+   "jurisdiction": "SE",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "sg-carbon-tax",
+   "name": "Singapore carbon tax",
+   "name_local": "Singapore carbon tax",
+   "jurisdiction": "SG",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "sl-carbon-tax",
+   "name": "Slovenia carbon tax",
+   "name_local": "Slovenia carbon tax",
+   "jurisdiction": "SL",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "sn-carbon-tax",
+   "name": "Senegal carbon tax",
+   "name_local": "Senegal carbon tax",
+   "jurisdiction": "SN",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "th-carbon-tax",
+   "name": "Thailand carbon tax",
+   "name_local": "Thailand carbon tax",
+   "jurisdiction": "TH",
+   "type": "carbon_tax",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "th-ets",
+   "name": "Thailand ETS",
+   "name_local": "Thailand ETS",
+   "jurisdiction": "TH",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "tr-ets",
+   "name": "Turkey Emissions Trading System",
+   "name_local": "Emisyon Ticaret Sistemi (ETS)",
+   "jurisdiction": "TR",
+   "type": "ets",
+   "status": "pilot_mandated",
+   "status_label": "pilot mandated",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": {
+    "doc": "tr-7552",
+    "unit": "Geçici Madde 1"
+   },
+   "notes": "Art. 9 establishes the ETS under the Climate Change Presidency; Transitional Art. 1 mandates a pilot period, scope and duration delegated to secondary regulation.",
+   "unverified": [
+    "implementing yönetmelik status",
+    "pilot start date"
+   ],
+   "documents": [
+    {
+     "id": "tr-7552",
+     "label": "Iklim Kanunu (Climate Law no. 7552) - legal basis for the Turkish ETS and SKDM",
+     "role": "legal_basis",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7552&MevzuatTur=1&MevzuatTertip=5",
+     "amendments": 0,
+     "corrigenda": 0,
+     "pending_proposals": []
+    }
+   ],
+   "edges": [],
+   "curated": true
+  },
+  {
+   "id": "tr-skdm",
+   "name": "Turkey Border Carbon Regulation Mechanism (SKDM)",
+   "name_local": "Sınırda Karbon Düzenleme Mekanizması (SKDM)",
+   "jurisdiction": "TR",
+   "type": "border_mechanism",
+   "status": "enabled_not_established",
+   "status_label": "enabled, not established",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": {
+    "doc": "tr-7552",
+    "unit": "Madde 8"
+   },
+   "notes": "Enabling clause only: Art. 8(1)(ç) provides the mechanism may be established; reporting, scope and procedures assigned to the Ministry of Trade.",
+   "unverified": [
+    "implementing regulation status"
+   ],
+   "documents": [
+    {
+     "id": "tr-7552",
+     "label": "Iklim Kanunu (Climate Law no. 7552) - legal basis for the Turkish ETS and SKDM",
+     "role": "legal_basis",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7552&MevzuatTur=1&MevzuatTertip=5",
+     "amendments": 0,
+     "corrigenda": 0,
+     "pending_proposals": []
+    }
+   ],
+   "edges": [],
+   "curated": true
+  },
+  {
+   "id": "ua-carbon-tax",
+   "name": "Ukraine carbon tax",
+   "name_local": "Ukraine carbon tax",
+   "jurisdiction": "UA",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "ua-ets",
+   "name": "Ukraine ETS",
+   "name_local": "Ukraine ETS",
+   "jurisdiction": "UA",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "uk-carbon-tax",
+   "name": "UK Carbon Price Support",
+   "name_local": "UK Carbon Price Support",
+   "jurisdiction": "UK",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "uk-cbam",
+   "name": "UK Carbon Border Adjustment Mechanism",
+   "name_local": "UK Carbon Border Adjustment Mechanism",
+   "jurisdiction": "UK",
+   "type": "border_mechanism",
+   "status": "enacted_future_start",
+   "status_label": "enacted, applies later",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": {
+    "doc": "uk-fa-2026-part5",
+    "unit": null
+   },
+   "notes": "Enacted as Part 5 of the Finance Act 2026; charges to CBAM arise from 1 January 2027 (SI 2026/830, SI 2026/802 both in force 1 Jan 2027).",
+   "unverified": [],
+   "documents": [
+    {
+     "id": "uk-si-2026-802",
+     "label": "CBAM (Administrative Provisions) Regulations 2026; in force 1 Jan 2027",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://www.legislation.gov.uk/uksi/2026/802/made"
+    },
+    {
+     "id": "uk-si-2026-830",
+     "label": "CBAM (Transitory Provision) Regulations 2026; in force 1 Jan 2027",
+     "role": "implementing_regulation",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://www.legislation.gov.uk/uksi/2026/830/made"
+    },
+    {
+     "id": "uk-fa-2026-part5",
+     "label": "Finance Act 2026, Part 5 - the UK CBAM charge",
+     "role": "legal_basis",
+     "deep_layer": true,
+     "status": "in_force",
+     "url": "https://www.legislation.gov.uk/ukpga/2026/11/part/5",
+     "amendments": 0,
+     "corrigenda": 0,
+     "pending_proposals": []
+    }
+   ],
+   "edges": [],
+   "curated": true
+  },
+  {
+   "id": "uk-ets",
+   "name": "UK ETS",
+   "name_local": "UK ETS",
+   "jurisdiction": "UK",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [
+    {
+     "phrase": "negotiating a link with",
+     "other": "eu-ets",
+     "other_name": "EU Emissions Trading System",
+     "note": "May 2025: UK and EU announced their intention to work towards linking the two systems, including conditions for mutual CBAM exemptions; formal linkage not yet established (WB CPD, May 2026 edition).",
+     "source": "src-wb-cpd"
+    }
+   ],
+   "curated": false
+  },
+  {
+   "id": "us-california-ets",
+   "name": "California CaT",
+   "name_local": "California CaT",
+   "jurisdiction": "US-CALIFORNIA",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-co-ets",
+   "name": "Colorado GHG crediting trading system",
+   "name_local": "Colorado GHG crediting trading system",
+   "jurisdiction": "US-CO",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-hi-carbon-tax",
+   "name": "Hawaii carbon tax",
+   "name_local": "Hawaii carbon tax",
+   "jurisdiction": "US-HI",
+   "type": "carbon_tax",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-ma-ets",
+   "name": "Massachusetts ETS",
+   "name_local": "Massachusetts ETS",
+   "jurisdiction": "US-MA",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-maryland-ets",
+   "name": "Maryland ETS",
+   "name_local": "Maryland ETS",
+   "jurisdiction": "US-MARYLAND",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-minneapolis-carbon-tax",
+   "name": "Minneapolis carbon tax",
+   "name_local": "Minneapolis carbon tax",
+   "jurisdiction": "US-MINNEAPOLIS",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-nj-ets",
+   "name": "New Jersey ETS",
+   "name_local": "New Jersey ETS",
+   "jurisdiction": "US-NJ",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-ny-ets",
+   "name": "New York State ETS",
+   "name_local": "New York State ETS",
+   "jurisdiction": "US-NY",
+   "type": "ets",
+   "status": "under_development",
+   "status_label": "under development",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-oregon-ets",
+   "name": "Oregon ETS",
+   "name_local": "Oregon ETS",
+   "jurisdiction": "US-OREGON",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-pe-ets",
+   "name": "Pennsylvania ETS",
+   "name_local": "Pennsylvania ETS",
+   "jurisdiction": "US-PE",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-vt-ets",
+   "name": "Vermont ETS",
+   "name_local": "Vermont ETS",
+   "jurisdiction": "US-VT",
+   "type": "ets",
+   "status": "under_consideration",
+   "status_label": "under consideration",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "us-washington-ets",
+   "name": "Washington CCA",
+   "name_local": "Washington CCA",
+   "jurisdiction": "US-WASHINGTON",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "uy-carbon-tax",
+   "name": "Uruguay CO2 tax",
+   "name_local": "Uruguay CO2 tax",
+   "jurisdiction": "UY",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "vn-ets",
+   "name": "Viet Nam ETS",
+   "name_local": "Viet Nam ETS",
+   "jurisdiction": "VN",
+   "type": "ets",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  },
+  {
+   "id": "za-carbon-tax",
+   "name": "South Africa carbon tax",
+   "name_local": "South Africa carbon tax",
+   "jurisdiction": "ZA",
+   "type": "carbon_tax",
+   "status": "in_force",
+   "status_label": "in force",
+   "as_of": "2026-09-08",
+   "stale": false,
+   "status_basis": null,
+   "notes": null,
+   "unverified": [
+    "governing legislation not yet mapped"
+   ],
+   "documents": [],
+   "edges": [],
+   "curated": false
+  }
+ ]
+}

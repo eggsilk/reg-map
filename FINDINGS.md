@@ -63,6 +63,10 @@ Source material for the eventual site write-up; not itself site copy.
 - **Windows default encoding is a standing hazard (2026-09-08).** cp1252 decoding broke both a
   JSON read and a subprocess pipe (one UTF-8 byte killed the reader thread, stdout came back
   None). Every read and every pipe gets an explicit encoding now; both bugs are regression-tested.
+- **Count drift is a bug siren (2026-09-08).** A rebuild's document count came out 2 higher than
+  arithmetic predicted; chasing it exposed duplicate rows from joining on CELEX strings instead
+  of act identity (a consolidated id doesn't contain its base id). When derived numbers don't
+  reconcile, the pipeline is wrong somewhere — never shrug at a delta.
 - **The gazette watcher saw real news on day one (2026-09-08).** Turkey's ratification
   decisions with the UNFCCC Secretariat (COP31 hosting) appeared in that morning's Resmî
   Gazete scan.
