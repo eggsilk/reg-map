@@ -15,6 +15,7 @@ from parse import segment_eu, segment_tr, extract_citations, act_key_from_celex
 
 ANNOTATIONS = ROOT / "annotations.json"
 INSTRUMENTS = ROOT / "instruments.json"
+CELLAR_REL = ROOT / "corpus" / "eu" / "cellar_relations.json"
 INDEX_MD = ROOT / "INDEX.md"
 
 STATUS_ENUM = ("under_consideration", "under_development", "enabled_not_established",
@@ -134,6 +135,72 @@ def main():
                     (doc["id"], label, e["to_key"], to_doc, e.get("to_unit"),
                      e["raw"], 1 if e.get("internal") else 0))
                 stats["edges"] += 1
+
+    # CELLAR-harvested typed relations (metadata-only broad layer)
+    if CELLAR_REL.exists():
+        cellar = json.loads(CELLAR_REL.read_text(encoding="utf-8"))
+        titles = cellar.get("titles", {})
+        run_date = cellar.get("run")
+
+        def ensure_doc(celex):
+            """Metadata-only document row for a discovered act; returns doc id."""
+            m = __import__("re").match(r"3(\d{4})([RLD])(\d{4})$", celex)
+            if not m:
+                return None
+            year, letter, num = m.group(1), m.group(2), int(m.group(3))
+            did = f"eu-{year}-{num}"
+            row = con.execute("SELECT celex FROM documents WHERE id=?", (did,)).fetchone()
+            if row:
+                if row[0] and celex not in row[0]:
+                    # same year/number, different act type: disambiguate
+                    did = f"eu-{year}-{letter.lower()}{num}"
+                    row = con.execute("SELECT 1 FROM documents WHERE id=?", (did,)).fetchone()
+                    if row:
+                        return did
+                else:
+                    return did
+            kind = {"R": "regulation", "L": "directive", "D": "decision"}[m.group(2)]
+            con.execute(
+                "INSERT INTO documents (id, jurisdiction, regime, instrument_type, role, celex, "
+                "act_key, language, status, tier, metadata_only, title, official_id) "
+                "VALUES (?,?,?,?,?,?,?,?,?,?,1,?,?)",
+                (did, "EU", "", kind, "", celex, f"{kind}:{year}/{num}", "en",
+                 "unreviewed", "B", titles.get(celex), celex))
+            stats["metadata_docs"] = stats.get("metadata_docs", 0) + 1
+            return did
+
+        REL_MAP = {  # harvest key -> (rel_type, other act is the FROM side?)
+            "amends_in": ("amends", True),
+            "based_on_in": ("legal_basis", True),
+            "completes_in": ("completes", True),
+            "repeals_in": ("repeals", True),
+            "repeals_out": ("repeals", False),
+        }
+        for doc_id, rels in cellar.get("docs", {}).items():
+            for key, entries in rels.items():
+                if key in REL_MAP:
+                    rel_type, other_is_from = REL_MAP[key]
+                    for e in entries:
+                        other = ensure_doc(e["celex"])
+                        if not other or other == doc_id:
+                            continue
+                        fd, td = (other, doc_id) if other_is_from else (doc_id, other)
+                        con.execute(
+                            "INSERT INTO edges (from_doc, to_doc, rel_type, source, retrieved, raw) "
+                            "VALUES (?,?,?,'src-cellar',?,?)",
+                            (fd, td, rel_type, run_date, e["celex"]))
+                        stats["cellar_edges"] = stats.get("cellar_edges", 0) + 1
+                elif key in ("corrects_in", "consolidates_in", "proposes_in"):
+                    rel_type = {"corrects_in": "corrects", "consolidates_in": "consolidates",
+                                "proposes_in": "proposes_to_amend"}[key]
+                    for e in entries:
+                        # endpoint-light: corrigenda, version snapshots and proposals are
+                        # badges/panels on the parent, not document nodes (design/02)
+                        con.execute(
+                            "INSERT INTO edges (from_doc, to_doc, rel_type, source, retrieved, raw) "
+                            "VALUES (NULL,?,?,'src-cellar',?,?)",
+                            (doc_id, rel_type, run_date, e["celex"]))
+                        stats["cellar_edges"] = stats.get("cellar_edges", 0) + 1
 
     # curated doc-doc relations from the manifest
     for rel in man.get("relations", []):

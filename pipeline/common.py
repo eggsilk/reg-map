@@ -15,6 +15,18 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 
 EURLEX_HTML = "https://eur-lex.europa.eu/legal-content/{lang}/TXT/HTML/?uri=CELEX:{celex}"
 EURLEX_OVERVIEW = "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:{celex}"
+SPARQL_ENDPOINT = "https://publications.europa.eu/webapi/rdf/sparql"
+
+
+def sparql_select(query, timeout=120):
+    """Run a SELECT against the EU publications office; returns the bindings list."""
+    import json as _json
+    import urllib.parse
+    url = SPARQL_ENDPOINT + "?" + urllib.parse.urlencode(
+        {"query": query, "format": "application/json"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return _json.loads(r.read().decode("utf-8"))["results"]["bindings"]
 
 
 def load_manifest():

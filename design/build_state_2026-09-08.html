@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>reg-map — build state 2026-09-08</title>
+<style>
+  :root { --ink:#16181a; --mut:#6b7280; --line:#e5e2da; --bg:#fbfaf7; --acc:#9c6f1c; --ok:#3e6b4f; --warn:#8a6d1f; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:var(--bg); color:var(--ink); font:15px/1.55 -apple-system,"Segoe UI",sans-serif; }
+  .page { max-width:880px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { font-size:22px; font-weight:650; }
+  .sub { color:var(--mut); margin-top:4px; font-size:13.5px; }
+  h2 { font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--mut);
+       margin:36px 0 10px; padding-bottom:6px; border-bottom:1px solid var(--ink); }
+  table { border-collapse:collapse; width:100%; font-size:14px; }
+  th { text-align:left; font-size:11.5px; text-transform:uppercase; letter-spacing:.06em;
+       color:var(--mut); font-weight:600; padding:6px 10px 6px 0; border-bottom:1px solid var(--line); }
+  td { padding:7px 10px 7px 0; border-bottom:1px solid var(--line); vertical-align:top; }
+  code, .mono { font-family:"Cascadia Code","Consolas",monospace; font-size:12.5px; }
+  .status { font-family:"Consolas",monospace; font-size:12px; }
+  .ok { color:var(--ok); } .warn { color:var(--warn); } .mut { color:var(--mut); }
+  .flow { display:flex; flex-wrap:wrap; gap:8px; align-items:center; font-size:13px; margin-top:6px; }
+  .box { border:1px solid var(--ink); padding:6px 12px; background:#fff; }
+  .arr { color:var(--mut); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:10px; margin-top:6px; }
+  .stat { border:1px solid var(--line); background:#fff; padding:12px 14px; }
+  .stat b { display:block; font-size:24px; font-weight:650; }
+  .stat span { font-size:12.5px; color:var(--mut); }
+  ul { padding-left:18px; } li { margin-top:4px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>reg-map — what exists, 2026-09-08</h1>
+  <div class="sub">Private repo <span class="mono">github.com/eggsilk/reg-map</span> · 7 commits · watch loop armed (Mon/Thu, GitHub Actions) · 9/9 tests passing</div>
+
+  <h2>The pipeline</h2>
+  <div class="flow">
+    <span class="box">manifest.json<br><span class="mut">14 tracked documents</span></span><span class="arr">→</span>
+    <span class="box">fetch.py<br><span class="mut">EUR-Lex HTML · mevzuat PDF</span></span><span class="arr">→</span>
+    <span class="box">corpus/<br><span class="mut">full texts, committed</span></span><span class="arr">→</span>
+    <span class="box">build_db.py<br><span class="mut">parse + load, derived DB</span></span><span class="arr">→</span>
+    <span class="box">query.py<br><span class="mut">session ground truth</span></span>
+  </div>
+  <div class="flow" style="margin-top:10px">
+    <span class="box">watch.py<br><span class="mut">4 channels, delta memory</span></span><span class="arr">⟳ twice weekly, commits its own findings</span>
+  </div>
+
+  <h2>Numbers</h2>
+  <div class="grid">
+    <div class="stat"><b>14</b><span>documents in corpus (13 EU + TR Climate Law)</span></div>
+    <div class="stat"><b>580</b><span>units — articles, annexes, maddeler</span></div>
+    <div class="stat"><b>3,924</b><span>typed edges (3,923 citations + 1 curated supersedes)</span></div>
+    <div class="stat"><b>4</b><span>instruments in the atlas layer</span></div>
+    <div class="stat"><b>15</b><span>document→instrument memberships</span></div>
+    <div class="stat"><b>4</b><span>expert annotations that surface on query</span></div>
+  </div>
+
+  <h2>The atlas layer (phase 3, new)</h2>
+  <table>
+    <tr><th>instrument</th><th>jurisdiction</th><th>type</th><th>status</th><th>documents</th><th>status grounded in</th></tr>
+    <tr><td>EU ETS</td><td>EU</td><td>ETS</td><td class="status ok">in_force</td><td>5</td><td>Directive 2003/87</td></tr>
+    <tr><td>EU CBAM</td><td>EU</td><td>border mechanism</td><td class="status ok">in_force</td><td>8</td><td>Regulation 2023/956</td></tr>
+    <tr><td>Turkey ETS</td><td>TR</td><td>ETS</td><td class="status warn">pilot_mandated</td><td>1</td><td>Law 7552, Geçici Madde 1</td></tr>
+    <tr><td>Turkey SKDM</td><td>TR</td><td>border mechanism</td><td class="status warn">enabled_not_established</td><td>1</td><td>Law 7552, Madde 8</td></tr>
+  </table>
+  <p style="margin-top:10px; font-size:13.5px" class="mut">Two cross-border edges (TR ETS <i>modeled on</i> EU ETS; SKDM <i>responds to</i> CBAM) are held <b>unpublishable</b> — the database physically refuses to publish an edge without a citable source. That refusal is regression-tested.</p>
+
+  <h2>Watch channels</h2>
+  <table>
+    <tr><th>channel</th><th>source</th><th>state</th></tr>
+    <tr><td>Consolidated-version check</td><td>EUR-Lex overview pages</td><td class="status warn">works; EUR-Lex currently bot-blocking us — fails loudly, moving to SPARQL (decision 11)</td></tr>
+    <tr><td>New-act discovery</td><td>EU publications office SPARQL</td><td class="status ok">live — found 2 untracked 2026 CBAM regulations</td></tr>
+    <tr><td>Turkish gazette scan</td><td>resmigazete.gov.tr, 5 keywords</td><td class="status ok">live</td></tr>
+    <tr><td>Commission page diff</td><td>2 CBAM pages</td><td class="status ok">live — caught the Aug-2026 verifier guidance</td></tr>
+  </table>
+
+  <h2>Design layer (approved 2026-09-08)</h2>
+  <ul style="font-size:14px">
+    <li><span class="mono">design/01</span> — the atlas page, hand-crafted (Turkey ETS): the format everything inherits</li>
+    <li><span class="mono">design/02</span> — data model: instruments · documents · memberships · typed edges · license classes</li>
+    <li><span class="mono">design/03</span> — rubric: 9 publish criteria; primary source beats directory on conflict</li>
+    <li><span class="mono">design/04</span> — 12 failure modes with detection + fallback; a dead atlas comes down</li>
+    <li><span class="mono">design/05</span> — 15 logged decisions</li>
+  </ul>
+
+  <h2>Next</h2>
+  <ul style="font-size:14px">
+    <li><b>Phase 4</b> — EU harvest: amendment history, implements-tree, version timeline via SPARQL (templates tested live)</li>
+    <li><b>Phase 5</b> — World Bank spreadsheet in (CC-BY): the world's ~75 instruments</li>
+    <li><b>Phase 6</b> — curated cross-border edges, your review</li>
+    <li><b>Phase 7</b> — atlas pages on egeipek.info, benji.org system</li>
+  </ul>
+</div>
+</body>
+</html>

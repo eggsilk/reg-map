@@ -1,0 +1,1543 @@
+{
+ "run": "2026-09-08",
+ "docs": {
+  "eu-2023-956": {
+   "amends_in": [
+    {
+     "celex": "32025R2083",
+     "date": "2025-10-08"
+    }
+   ],
+   "based_on_in": [
+    {
+     "celex": "32023R1773",
+     "date": "2023-08-17"
+    },
+    {
+     "celex": "32024R2649",
+     "date": "2024-10-10"
+    },
+    {
+     "celex": "32024R3210",
+     "date": "2024-12-18"
+    },
+    {
+     "celex": "32025R0486",
+     "date": "2025-03-17"
+    },
+    {
+     "celex": "32025R2210",
+     "date": "2025-10-31"
+    },
+    {
+     "celex": "32025R2551",
+     "date": "2025-11-20"
+    },
+    {
+     "celex": "32025R2547",
+     "date": "2025-12-10"
+    },
+    {
+     "celex": "32025R2550",
+     "date": "2025-12-10"
+    },
+    {
+     "celex": "32025R2548",
+     "date": "2025-12-10"
+    },
+    {
+     "celex": "32025R2546",
+     "date": "2025-12-10"
+    },
+    {
+     "celex": "32025R2549",
+     "date": "2025-12-10"
+    },
+    {
+     "celex": "32025R2621",
+     "date": "2025-12-16"
+    },
+    {
+     "celex": "32025R2620",
+     "date": "2025-12-16"
+    },
+    {
+     "celex": "32025R2619",
+     "date": "2025-12-16"
+    },
+    {
+     "celex": "32026R1740",
+     "date": "2026-07-20"
+    }
+   ],
+   "completes_in": [
+    {
+     "celex": "32025R2551",
+     "date": "2025-11-20"
+    }
+   ],
+   "corrects_in": [
+    {
+     "celex": "32023R0956R(01)",
+     "date": "2023-06-29"
+    },
+    {
+     "celex": "32023R0956R(02)",
+     "date": "2023-09-21"
+    },
+    {
+     "celex": "32023R0956R(03)",
+     "date": "2024-03-06"
+    },
+    {
+     "celex": "32023R0956R(04)",
+     "date": "2025-09-19"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02023R0956-20230516",
+     "date": "2023-05-16"
+    },
+    {
+     "celex": "02023R0956-20251020",
+     "date": "2025-10-20"
+    }
+   ],
+   "proposes_in": [
+    {
+     "celex": "52025PC0087",
+     "date": "2025-02-26"
+    },
+    {
+     "celex": "52025PC0989",
+     "date": "2025-12-17"
+    }
+   ],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2025-2551": {
+   "amends_in": [],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [],
+   "consolidates_in": [],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2025-2546": {
+   "amends_in": [],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [],
+   "consolidates_in": [],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2025-2547": {
+   "amends_in": [],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32025R2547R(01)",
+     "date": "2026-06-03"
+    }
+   ],
+   "consolidates_in": [],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2025-2620": {
+   "amends_in": [],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [],
+   "consolidates_in": [],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2025-2621": {
+   "amends_in": [
+    {
+     "celex": "32026R1740",
+     "date": "2026-07-20"
+    }
+   ],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32025R2621R(01)",
+     "date": "2026-03-04"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02025R2621-20251231",
+     "date": "2025-12-31"
+    },
+    {
+     "celex": "02025R2621-20260101",
+     "date": "2026-01-01"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2024-2620": {
+   "amends_in": [],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [],
+   "consolidates_in": [],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2018-2066": {
+   "amends_in": [
+    {
+     "celex": "32020R2085",
+     "date": "2020-12-14"
+    },
+    {
+     "celex": "32022R0388",
+     "date": "2022-03-08"
+    },
+    {
+     "celex": "32022R1371",
+     "date": "2022-08-05"
+    },
+    {
+     "celex": "32023R2122",
+     "date": "2023-10-17"
+    },
+    {
+     "celex": "32024R2493",
+     "date": "2024-09-23"
+    },
+    {
+     "celex": "32025R0842",
+     "date": "2025-05-06"
+    }
+   ],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32018R2066R(01)",
+     "date": "2019-05-06"
+    },
+    {
+     "celex": "32018R2066R(02)",
+     "date": "2019-06-20"
+    },
+    {
+     "celex": "32018R2066R(03)",
+     "date": "2020-09-10"
+    },
+    {
+     "celex": "32018R2066R(04)",
+     "date": "2021-03-11"
+    },
+    {
+     "celex": "32018R2066R(05)",
+     "date": "2021-09-02"
+    },
+    {
+     "celex": "32018R2066R(06)",
+     "date": "2021-11-18"
+    },
+    {
+     "celex": "32018R2066R(07)",
+     "date": "2025-09-18"
+    },
+    {
+     "celex": "32018R2066R(08)",
+     "date": "2025-12-12"
+    },
+    {
+     "celex": "32018R2066R(09)",
+     "date": "2026-05-27"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02018R2066-20181231",
+     "date": "2018-12-31"
+    },
+    {
+     "celex": "02012R0601-20190101",
+     "date": "2019-01-01"
+    },
+    {
+     "celex": "02012R0601-20210101",
+     "date": "2021-01-01"
+    },
+    {
+     "celex": "02018R2066-20210101",
+     "date": "2021-01-01"
+    },
+    {
+     "celex": "02018R2066-20220101",
+     "date": "2022-01-01"
+    },
+    {
+     "celex": "02018R2066-20220828",
+     "date": "2022-08-28"
+    },
+    {
+     "celex": "02018R2066-20240101",
+     "date": "2024-01-01"
+    },
+    {
+     "celex": "02018R2066-20240701",
+     "date": "2024-07-01"
+    },
+    {
+     "celex": "02018R2066-20250101",
+     "date": "2025-01-01"
+    },
+    {
+     "celex": "02018R2066-20250527",
+     "date": "2025-05-27"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [
+    {
+     "celex": "32012R0601",
+     "date": "2012-06-21"
+    }
+   ],
+   "repeals_in": []
+  },
+  "eu-2018-2067": {
+   "amends_in": [
+    {
+     "celex": "32020R2084",
+     "date": "2020-12-14"
+    },
+    {
+     "celex": "32024R1321",
+     "date": "2024-05-08"
+    },
+    {
+     "celex": "32025R1192",
+     "date": "2025-06-18"
+    }
+   ],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32018R2067R(01)",
+     "date": "2019-05-06"
+    },
+    {
+     "celex": "32018R2067R(02)",
+     "date": "2019-07-04"
+    },
+    {
+     "celex": "32018R2067R(03)",
+     "date": "2020-01-15"
+    },
+    {
+     "celex": "32018R2067R(04)",
+     "date": "2020-04-27"
+    },
+    {
+     "celex": "32018R2067R(05)",
+     "date": "2024-06-10"
+    },
+    {
+     "celex": "32018R2067R(06)",
+     "date": "2025-06-18"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02018R2067-20181231",
+     "date": "2018-12-31"
+    },
+    {
+     "celex": "02012R0600-20190101",
+     "date": "2019-01-01"
+    },
+    {
+     "celex": "02018R2067-20210101",
+     "date": "2021-01-01"
+    },
+    {
+     "celex": "02018R2067-20240514",
+     "date": "2024-05-14"
+    },
+    {
+     "celex": "02018R2067-20250101",
+     "date": "2025-01-01"
+    },
+    {
+     "celex": "02018R2067-20250622",
+     "date": "2025-06-22"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [
+    {
+     "celex": "32012R0600",
+     "date": "2012-06-21"
+    }
+   ],
+   "repeals_in": []
+  },
+  "eu-2003-87": {
+   "amends_in": [
+    {
+     "celex": "32004L0101",
+     "date": "2004-10-27"
+    },
+    {
+     "celex": "32008L0001",
+     "date": "2008-01-15"
+    },
+    {
+     "celex": "32008L0101",
+     "date": "2008-11-19"
+    },
+    {
+     "celex": "32009R0219",
+     "date": "2009-03-11"
+    },
+    {
+     "celex": "32009L0029",
+     "date": "2009-04-23"
+    },
+    {
+     "celex": "32013D1359",
+     "date": "2013-12-17"
+    },
+    {
+     "celex": "32014R0421",
+     "date": "2014-04-16"
+    },
+    {
+     "celex": "32015D1814",
+     "date": "2015-10-06"
+    },
+    {
+     "celex": "32017R2392",
+     "date": "2017-12-13"
+    },
+    {
+     "celex": "32018L0410",
+     "date": "2018-03-14"
+    },
+    {
+     "celex": "32020D1071",
+     "date": "2020-05-18"
+    },
+    {
+     "celex": "32021R1416",
+     "date": "2021-06-17"
+    },
+    {
+     "celex": "32023D0136",
+     "date": "2023-01-18"
+    },
+    {
+     "celex": "32023R0435",
+     "date": "2023-02-27"
+    },
+    {
+     "celex": "32023L0958",
+     "date": "2023-05-10"
+    },
+    {
+     "celex": "32023L0959",
+     "date": "2023-05-10"
+    },
+    {
+     "celex": "32024R0795",
+     "date": "2024-02-29"
+    }
+   ],
+   "based_on_in": [
+    {
+     "celex": "32004D0156",
+     "date": "2004-01-29"
+    },
+    {
+     "celex": "32004R2216",
+     "date": "2004-12-21"
+    },
+    {
+     "celex": "32005D0381",
+     "date": "2005-05-04"
+    },
+    {
+     "celex": "32006D0780",
+     "date": "2006-11-13"
+    },
+    {
+     "celex": "32006D0803",
+     "date": "2006-11-23"
+    },
+    {
+     "celex": "32007D0589",
+     "date": "2007-07-18"
+    },
+    {
+     "celex": "32007R0916",
+     "date": "2007-07-31"
+    },
+    {
+     "celex": "32008R0994",
+     "date": "2008-10-08"
+    },
+    {
+     "celex": "32009D0073",
+     "date": "2008-12-17"
+    },
+    {
+     "celex": "32009D0339",
+     "date": "2009-04-16"
+    },
+    {
+     "celex": "32009D0450",
+     "date": "2009-06-08"
+    },
+    {
+     "celex": "32009R0748",
+     "date": "2009-08-05"
+    },
+    {
+     "celex": "32010D0002",
+     "date": "2009-12-24"
+    },
+    {
+     "celex": "32010R0082",
+     "date": "2010-01-28"
+    },
+    {
+     "celex": "32010D0345",
+     "date": "2010-06-08"
+    },
+    {
+     "celex": "32010D0384",
+     "date": "2010-07-09"
+    },
+    {
+     "celex": "32010R0606",
+     "date": "2010-07-09"
+    },
+    {
+     "celex": "32010R0920",
+     "date": "2010-10-07"
+    },
+    {
+     "celex": "32010D0634",
+     "date": "2010-10-22"
+    },
+    {
+     "celex": "32010D0670",
+     "date": "2010-11-03"
+    },
+    {
+     "celex": "32010R1031",
+     "date": "2010-11-12"
+    },
+    {
+     "celex": "32011R0115",
+     "date": "2011-02-02"
+    },
+    {
+     "celex": "32011D0149",
+     "date": "2011-03-07"
+    },
+    {
+     "celex": "32011R0394",
+     "date": "2011-04-20"
+    },
+    {
+     "celex": "32011D0278",
+     "date": "2011-04-27"
+    },
+    {
+     "celex": "32011R0550",
+     "date": "2011-06-07"
+    },
+    {
+     "celex": "32011D0389",
+     "date": "2011-06-30"
+    },
+    {
+     "celex": "32011D0540",
+     "date": "2011-08-18"
+    },
+    {
+     "celex": "32011D0638",
+     "date": "2011-09-26"
+    },
+    {
+     "celex": "32011D0745",
+     "date": "2011-11-11"
+    },
+    {
+     "celex": "32011R1193",
+     "date": "2011-11-18"
+    },
+    {
+     "celex": "32011R1210",
+     "date": "2011-11-23"
+    },
+    {
+     "celex": "32012R0100",
+     "date": "2012-02-03"
+    },
+    {
+     "celex": "32012R0601",
+     "date": "2012-06-21"
+    },
+    {
+     "celex": "32012R0600",
+     "date": "2012-06-21"
+    },
+    {
+     "celex": "32012D0498",
+     "date": "2012-08-17"
+    },
+    {
+     "celex": "32012R0784",
+     "date": "2012-08-30"
+    },
+    {
+     "celex": "32012R1042",
+     "date": "2012-11-07"
+    },
+    {
+     "celex": "32013R0109",
+     "date": "2013-01-29"
+    },
+    {
+     "celex": "32013R0389",
+     "date": "2013-05-02"
+    },
+    {
+     "celex": "32013R0815",
+     "date": "2013-08-27"
+    },
+    {
+     "celex": "32013D0448",
+     "date": "2013-09-05"
+    },
+    {
+     "celex": "32013D0447",
+     "date": "2013-09-05"
+    },
+    {
+     "celex": "32013R1123",
+     "date": "2013-11-08"
+    },
+    {
+     "celex": "32013R1143",
+     "date": "2013-11-13"
+    },
+    {
+     "celex": "32014D0009",
+     "date": "2013-12-18"
+    },
+    {
+     "celex": "32014R0100",
+     "date": "2014-02-05"
+    },
+    {
+     "celex": "32014R0176",
+     "date": "2014-02-25"
+    },
+    {
+     "celex": "32014R0206",
+     "date": "2014-03-04"
+    },
+    {
+     "celex": "32014D0166",
+     "date": "2014-03-21"
+    },
+    {
+     "celex": "32014R0743",
+     "date": "2014-07-09"
+    },
+    {
+     "celex": "32014D0746",
+     "date": "2014-10-27"
+    },
+    {
+     "celex": "32015D0191",
+     "date": "2015-02-05"
+    },
+    {
+     "celex": "32015R0180",
+     "date": "2015-02-09"
+    },
+    {
+     "celex": "32016R0282",
+     "date": "2016-02-26"
+    },
+    {
+     "celex": "32016D0775",
+     "date": "2016-05-18"
+    },
+    {
+     "celex": "32017D0126",
+     "date": "2017-01-24"
+    },
+    {
+     "celex": "32017R0294",
+     "date": "2017-02-20"
+    },
+    {
+     "celex": "32017R1902",
+     "date": "2017-10-18"
+    },
+    {
+     "celex": "32017D2172",
+     "date": "2017-11-20"
+    },
+    {
+     "celex": "32018R0208",
+     "date": "2018-02-12"
+    },
+    {
+     "celex": "32018R0336",
+     "date": "2018-03-08"
+    },
+    {
+     "celex": "32019R0007",
+     "date": "2018-10-30"
+    },
+    {
+     "celex": "32018R2067",
+     "date": "2018-12-19"
+    },
+    {
+     "celex": "32019R0331",
+     "date": "2018-12-19"
+    },
+    {
+     "celex": "32019R0401",
+     "date": "2018-12-19"
+    },
+    {
+     "celex": "32018R2066",
+     "date": "2018-12-19"
+    },
+    {
+     "celex": "32019R0226",
+     "date": "2019-02-06"
+    },
+    {
+     "celex": "32019R0225",
+     "date": "2019-02-06"
+    },
+    {
+     "celex": "32019D0708",
+     "date": "2019-02-15"
+    },
+    {
+     "celex": "32019R0856",
+     "date": "2019-02-26"
+    },
+    {
+     "celex": "32019R1122",
+     "date": "2019-03-12"
+    },
+    {
+     "celex": "32019R1603",
+     "date": "2019-07-18"
+    },
+    {
+     "celex": "32019R1868",
+     "date": "2019-08-28"
+    },
+    {
+     "celex": "32019R1842",
+     "date": "2019-10-31"
+    },
+    {
+     "celex": "32020R0535",
+     "date": "2020-04-08"
+    },
+    {
+     "celex": "32020D1071",
+     "date": "2020-05-18"
+    },
+    {
+     "celex": "32020R1001",
+     "date": "2020-07-09"
+    },
+    {
+     "celex": "32020D1722",
+     "date": "2020-11-16"
+    },
+    {
+     "celex": "32020R2085",
+     "date": "2020-12-14"
+    },
+    {
+     "celex": "32020R2084",
+     "date": "2020-12-14"
+    },
+    {
+     "celex": "32020D2166",
+     "date": "2020-12-17"
+    },
+    {
+     "celex": "32021D0355",
+     "date": "2021-02-25"
+    },
+    {
+     "celex": "32021R0447",
+     "date": "2021-03-12"
+    },
+    {
+     "celex": "32021R0662",
+     "date": "2021-04-22"
+    },
+    {
+     "celex": "32021R1204",
+     "date": "2021-05-10"
+    },
+    {
+     "celex": "32021R1416",
+     "date": "2021-06-17"
+    },
+    {
+     "celex": "32022R0388",
+     "date": "2022-03-08"
+    },
+    {
+     "celex": "32022R0455",
+     "date": "2022-03-14"
+    },
+    {
+     "celex": "32022R0827",
+     "date": "2022-05-20"
+    },
+    {
+     "celex": "32022D0919",
+     "date": "2022-06-08"
+    },
+    {
+     "celex": "32022D1028",
+     "date": "2022-06-27"
+    },
+    {
+     "celex": "32022R1371",
+     "date": "2022-08-05"
+    },
+    {
+     "celex": "32023R0838",
+     "date": "2023-03-23"
+    },
+    {
+     "celex": "32023R1642",
+     "date": "2023-06-14"
+    },
+    {
+     "celex": "32023D1575",
+     "date": "2023-07-27"
+    },
+    {
+     "celex": "32023R2537",
+     "date": "2023-09-15"
+    },
+    {
+     "celex": "32023R2122",
+     "date": "2023-10-17"
+    },
+    {
+     "celex": "32023R2830",
+     "date": "2023-10-17"
+    },
+    {
+     "celex": "32023R2904",
+     "date": "2023-10-25"
+    },
+    {
+     "celex": "32023R2297",
+     "date": "2023-10-26"
+    },
+    {
+     "celex": "32023D2440",
+     "date": "2023-10-27"
+    },
+    {
+     "celex": "32023R2441",
+     "date": "2023-10-31"
+    },
+    {
+     "celex": "32023R2599",
+     "date": "2023-11-22"
+    },
+    {
+     "celex": "32023R2606",
+     "date": "2023-11-22"
+    },
+    {
+     "celex": "32023D2895",
+     "date": "2023-12-19"
+    },
+    {
+     "celex": "32024R0873",
+     "date": "2024-01-30"
+    },
+    {
+     "celex": "32024D0411",
+     "date": "2024-01-30"
+    },
+    {
+     "celex": "32024R0622",
+     "date": "2024-02-22"
+    },
+    {
+     "celex": "32024R1030",
+     "date": "2024-03-27"
+    },
+    {
+     "celex": "32024D1113",
+     "date": "2024-04-18"
+    },
+    {
+     "celex": "32024R1321",
+     "date": "2024-05-08"
+    },
+    {
+     "celex": "32024D1797",
+     "date": "2024-06-27"
+    },
+    {
+     "celex": "32024R1879",
+     "date": "2024-07-09"
+    },
+    {
+     "celex": "32024R2620",
+     "date": "2024-07-30"
+    },
+    {
+     "celex": "32024R2493",
+     "date": "2024-09-23"
+    },
+    {
+     "celex": "32024D2986",
+     "date": "2024-09-24"
+    },
+    {
+     "celex": "32024D2985",
+     "date": "2024-09-24"
+    },
+    {
+     "celex": "32024R2850",
+     "date": "2024-11-11"
+    },
+    {
+     "celex": "32024D2924",
+     "date": "2024-11-27"
+    },
+    {
+     "celex": "32025D0318",
+     "date": "2024-11-27"
+    },
+    {
+     "celex": "32024D2951",
+     "date": "2024-11-29"
+    },
+    {
+     "celex": "32025R0723",
+     "date": "2025-02-06"
+    },
+    {
+     "celex": "32025R1253",
+     "date": "2025-02-11"
+    },
+    {
+     "celex": "32025D0737",
+     "date": "2025-04-15"
+    },
+    {
+     "celex": "32025R0772",
+     "date": "2025-04-16"
+    },
+    {
+     "celex": "32025R0842",
+     "date": "2025-05-06"
+    },
+    {
+     "celex": "32025R0927",
+     "date": "2025-05-20"
+    },
+    {
+     "celex": "32025D1162",
+     "date": "2025-06-05"
+    },
+    {
+     "celex": "32025R1192",
+     "date": "2025-06-18"
+    },
+    {
+     "celex": "32025R1500",
+     "date": "2025-07-23"
+    },
+    {
+     "celex": "32025D2452",
+     "date": "2025-12-05"
+    },
+    {
+     "celex": "32026R0389",
+     "date": "2026-02-23"
+    },
+    {
+     "celex": "32026R0784",
+     "date": "2026-03-26"
+    },
+    {
+     "celex": "32026R0787",
+     "date": "2026-04-08"
+    },
+    {
+     "celex": "32026D1283",
+     "date": "2026-06-09"
+    },
+    {
+     "celex": "32026D1312",
+     "date": "2026-06-15"
+    },
+    {
+     "celex": "32026R1412",
+     "date": "2026-06-26"
+    },
+    {
+     "celex": "32026D1453",
+     "date": "2026-07-02"
+    }
+   ],
+   "completes_in": [
+    {
+     "celex": "32019D0708",
+     "date": "2019-02-15"
+    },
+    {
+     "celex": "32019R0856",
+     "date": "2019-02-26"
+    },
+    {
+     "celex": "32019R1122",
+     "date": "2019-03-12"
+    },
+    {
+     "celex": "32019R1603",
+     "date": "2019-07-18"
+    },
+    {
+     "celex": "32023R2830",
+     "date": "2023-10-17"
+    },
+    {
+     "celex": "32024R2620",
+     "date": "2024-07-30"
+    },
+    {
+     "celex": "32025R0723",
+     "date": "2025-02-06"
+    },
+    {
+     "celex": "32025R0927",
+     "date": "2025-05-20"
+    }
+   ],
+   "corrects_in": [
+    {
+     "celex": "32003L0087R(01)",
+     "date": "2011-08-02"
+    },
+    {
+     "celex": "32003L0087R(02)",
+     "date": "2015-10-24"
+    },
+    {
+     "celex": "32003L0087R(03)",
+     "date": "2018-01-05"
+    },
+    {
+     "celex": "32003L0087R(04)",
+     "date": "2019-09-26"
+    },
+    {
+     "celex": "32003L0087R(05)",
+     "date": "2019-10-31"
+    },
+    {
+     "celex": "32003L0087R(06)",
+     "date": "2023-06-08"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "01996L0061-20031025",
+     "date": "2003-10-25"
+    },
+    {
+     "celex": "02003L0087-20041113",
+     "date": "2004-11-13"
+    },
+    {
+     "celex": "02003L0087-20090202",
+     "date": "2009-02-02"
+    },
+    {
+     "celex": "02003L0087-20090420",
+     "date": "2009-04-20"
+    },
+    {
+     "celex": "02003L0087-20090625",
+     "date": "2009-06-25"
+    },
+    {
+     "celex": "02003L0087-20130701",
+     "date": "2013-07-01"
+    },
+    {
+     "celex": "02003L0087-20131219",
+     "date": "2013-12-19"
+    },
+    {
+     "celex": "02003L0087-20140430",
+     "date": "2014-04-30"
+    },
+    {
+     "celex": "02003L0087-20151029",
+     "date": "2015-10-29"
+    },
+    {
+     "celex": "02003L0087-20171229",
+     "date": "2017-12-29"
+    },
+    {
+     "celex": "02003L0087-20180408",
+     "date": "2018-04-08"
+    },
+    {
+     "celex": "02003L0087-20200101",
+     "date": "2020-01-01"
+    },
+    {
+     "celex": "02003L0087-20210101",
+     "date": "2021-01-01"
+    },
+    {
+     "celex": "02003L0087-20230121",
+     "date": "2023-01-21"
+    },
+    {
+     "celex": "02003L0087-20230301",
+     "date": "2023-03-01"
+    },
+    {
+     "celex": "02003L0087-20230605",
+     "date": "2023-06-05"
+    },
+    {
+     "celex": "02003L0087-20240301",
+     "date": "2024-03-01"
+    }
+   ],
+   "proposes_in": [
+    {
+     "celex": "52006PC0818",
+     "date": "2006-12-20"
+    },
+    {
+     "celex": "52007PC0824",
+     "date": "2007-12-19"
+    },
+    {
+     "celex": "52008PC0016",
+     "date": "2008-01-23"
+    },
+    {
+     "celex": "52012PC0416",
+     "date": "2012-07-25"
+    },
+    {
+     "celex": "52012PC0697",
+     "date": "2012-11-20"
+    },
+    {
+     "celex": "52013PC0722",
+     "date": "2013-10-16"
+    },
+    {
+     "celex": "52014PC0020",
+     "date": "2014-01-22"
+    },
+    {
+     "celex": "52015PC0337",
+     "date": "2015-07-15"
+    },
+    {
+     "celex": "52016PC0789",
+     "date": "2016-12-15"
+    },
+    {
+     "celex": "52017PC0054",
+     "date": "2017-02-03"
+    },
+    {
+     "celex": "52021PC0552",
+     "date": "2021-07-14"
+    },
+    {
+     "celex": "52021PC0551",
+     "date": "2021-07-14"
+    },
+    {
+     "celex": "52021PC0567",
+     "date": "2021-07-14"
+    },
+    {
+     "celex": "52022PC0231",
+     "date": "2022-05-18"
+    },
+    {
+     "celex": "52023PC0335",
+     "date": "2023-06-20"
+    },
+    {
+     "celex": "52026PC0616",
+     "date": "2026-07-17"
+    },
+    {
+     "celex": "52026PC0619",
+     "date": "2026-07-17"
+    }
+   ],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2019-331": {
+   "amends_in": [
+    {
+     "celex": "32024R0873",
+     "date": "2024-01-30"
+    }
+   ],
+   "based_on_in": [
+    {
+     "celex": "32021D0927",
+     "date": "2021-05-31"
+    },
+    {
+     "celex": "32026D1862",
+     "date": "2026-07-23"
+    }
+   ],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32019R0331R(01)",
+     "date": "2019-07-04"
+    },
+    {
+     "celex": "32019R0331R(02)",
+     "date": "2020-09-10"
+    },
+    {
+     "celex": "32019R0331R(03)",
+     "date": "2024-04-12"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02019R0331-20190227",
+     "date": "2019-02-27"
+    },
+    {
+     "celex": "02011D0278-20210101",
+     "date": "2021-01-01"
+    },
+    {
+     "celex": "02019R0331-20240101",
+     "date": "2024-01-01"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [
+    {
+     "celex": "32011D0278",
+     "date": "2011-04-27"
+    }
+   ],
+   "repeals_in": []
+  },
+  "eu-2019-1842": {
+   "amends_in": [
+    {
+     "celex": "32022R0827",
+     "date": "2022-05-20"
+    },
+    {
+     "celex": "32025R0772",
+     "date": "2025-04-16"
+    }
+   ],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32019R1842R(01)",
+     "date": "2025-04-14"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02019R1842-20220619",
+     "date": "2022-06-19"
+    },
+    {
+     "celex": "02019R1842-20260101",
+     "date": "2026-01-01"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  },
+  "eu-2023-1773": {
+   "amends_in": [
+    {
+     "celex": "32024R2649",
+     "date": "2024-10-10"
+    }
+   ],
+   "based_on_in": [],
+   "completes_in": [],
+   "corrects_in": [
+    {
+     "celex": "32023R1773R(01)",
+     "date": "2023-10-20"
+    },
+    {
+     "celex": "32023R1773R(02)",
+     "date": "2026-01-13"
+    }
+   ],
+   "consolidates_in": [
+    {
+     "celex": "02023R1773-20230915",
+     "date": "2023-09-15"
+    },
+    {
+     "celex": "02023R1773-20241031",
+     "date": "2024-10-31"
+    }
+   ],
+   "proposes_in": [],
+   "repeals_out": [],
+   "repeals_in": []
+  }
+ },
+ "dropped": {
+  "eu-2023-956": 4,
+  "eu-2025-2551": 0,
+  "eu-2025-2546": 0,
+  "eu-2025-2547": 0,
+  "eu-2025-2620": 0,
+  "eu-2025-2621": 0,
+  "eu-2024-2620": 0,
+  "eu-2018-2066": 0,
+  "eu-2018-2067": 0,
+  "eu-2003-87": 83,
+  "eu-2019-331": 20,
+  "eu-2019-1842": 0,
+  "eu-2023-1773": 0
+ },
+ "titles": {
+  "32004D0156": "2004/156/EC: Commission Decision of 29 January 2004 establishing guidelines for the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance) (notified under document number C(2004) 130)",
+  "32004L0101": "Directive 2004/101/EC of the European Parliament and of the Council of 27 October 2004 amending Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading within the Community, in respect of the Kyoto Protocol's project mechanismsText with EEA relevance",
+  "32004R2216": "Commission Regulation (EC) No 2216/2004 of 21 December 2004 for a standardised and secured system of registries pursuant to Directive 2003/87/EC of the European Parliament and of the Council and Decision No 280/2004/EC of the European Parliament and of the CouncilText with EEA relevance",
+  "32005D0381": "2005/381/EC: Commission Decision of 4 May 2005 establishing a questionnaire for reporting on the application of Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC (notified under document number C(2005) 1359)  (Text with EEA relevance)",
+  "32006D0780": "2006/780/EC: Commission Decision of 13 November 2006 on avoiding double counting of greenhouse gas emission reductions under the Community emissions trading scheme for project activities under the Kyoto Protocol pursuant to Directive 2003/87/EC of the European Parliament and of the Council (notified under document number C(2006) 5362)   (Text with EEA relevance)",
+  "32006D0803": "2006/803/EC: Commission Decision of 23 November 2006 amending Decision 2005/381/EC establishing a questionnaire for reporting on the application of Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowance trading within the Community and amending Council Directive 96/61/EC (notified under document number C(2006) 5546)   (Text with EEA relevance)",
+  "32007D0589": "2007/589/EC: Commission Decision of 18 July 2007 establishing guidelines for the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council (notified under document number C(2007) 3416) (Text with EEA relevance )",
+  "32007R0916": "Commission Regulation (EC) No 916/2007 of 31 July 2007 amending Regulation (EC) No 2216/2004 for a standardised and secured system of registries pursuant to Directive 2003/87/EC of the European Parliament and of the Council and Decision No 280/2004/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32008L0001": "Directive 2008/1/EC of the European Parliament and of the Council of 15 January 2008 concerning integrated pollution prevention and control (Codified version) (Text with EEA relevance )",
+  "32008L0101": "Directive 2008/101/EC of the European Parliament and of the Council of 19 November 2008 amending Directive 2003/87/EC so as to include aviation activities in the scheme for greenhouse gas emission allowance trading within the Community (Text with EEA relevance)",
+  "32008R0994": "Commission Regulation (EC) No 994/2008 of 8 October 2008 for a standardised and secured system of registries pursuant to Directive 2003/87/EC of the European Parliament and of the Council and Decision No 280/2004/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32009D0073": "2009/73/EC: Commission Decision of 17 December 2008 amending Decision 2007/589/EC as regards the inclusion of monitoring and reporting guidelines for emissions of nitrous oxide (notified under document number C(2008) 8040) Text with EEA relevance",
+  "32009D0339": "2009/339/EC: Commission Decision of 16 April 2009 amending Decision 2007/589/EC as regards the inclusion of monitoring and reporting guidelines for emissions and tonne-kilometre data from aviation activities (notified under document number C(2009) 2887) (Text with EEA relevance)",
+  "32009D0450": "2009/450/EC: Commission Decision of 8 June 2009 on the detailed interpretation of the aviation activities listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council (notified under document number C(2009) 4293) (Text with EEA relevance)",
+  "32009L0029": "Directive 2009/29/EC of the European Parliament and of the Council of 23 April 2009 amending Directive 2003/87/EC so as to improve and extend the greenhouse gas emission allowance trading scheme of the Community (Text with EEA relevance)",
+  "32009R0219": "Regulation (EC) No 219/2009 of the European Parliament and of the Council of 11 March 2009 adapting a number of instruments subject to the procedure referred to in Article 251 of the Treaty to Council Decision 1999/468/EC with regard to the regulatory procedure with scrutiny — Adaptation to the regulatory procedure with scrutiny — Part Two",
+  "32009R0748": "Commission Regulation (EC) No 748/2009 of 5 August 2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance )",
+  "32010D0002": "2010/2/: Commission Decision of 24 December 2009 determining, pursuant to Directive 2003/87/EC of the European Parliament and of the Council, a list of sectors and subsectors which are deemed to be exposed to a significant risk of carbon leakage (notified under document C(2009) 10251) (Text with EEA relevance)",
+  "32010D0345": "2010/345/: Commission Decision of 8 June 2010 amending Decision 2007/589/EC as regards the inclusion of monitoring and reporting guidelines for greenhouse gas emissions from the capture, transport and geological storage of carbon dioxide (notified under document C(2010) 3310)  (Text with EEA relevance )",
+  "32010D0384": "2010/384/: Commission Decision of 9 July 2010 on the Community-wide quantity of allowances to be issued under the EU Emission Trading Scheme for 2013 (notified under document C(2010) 4658)",
+  "32010D0634": "2010/634/EU: Commission Decision of 22 October 2010 adjusting the Union-wide quantity of allowances to be issued under the Union Scheme for 2013 and repealing Decision 2010/384/EU (notified under document C(2010) 7180)",
+  "32010D0670": "2010/670/EU: Commission Decision of 3 November 2010 laying down criteria and measures for the financing of commercial demonstration projects that aim at the environmentally safe capture and geological storage of CO 2 as well as demonstration projects of innovative renewable energy technologies under the scheme for greenhouse gas emission allowance trading within the Community established by Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2010) 7499)",
+  "32010R0082": "Commission Regulation (EU) No 82/2010 of 28 January 2010 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance)",
+  "32010R0606": "Commission Regulation (EU) No 606/2010 of 9 July 2010 on the approval of a simplified tool developed by the European organisation for air safety navigation (Eurocontrol) to estimate the fuel consumption of certain small emitting aircraft operators  (Text with EEA relevance )",
+  "32010R0920": "Commission Regulation (EU) No 920/2010 of 7 October 2010 for a standardised and secured system of registries pursuant to Directive 2003/87/EC of the European Parliament and of the Council and Decision No 280/2004/EC of the European Parliament and of the Council  Text with EEA relevance",
+  "32010R1031": "Commission Regulation (EU) No 1031/2010 of 12 November 2010 on the timing, administration and other aspects of auctioning of greenhouse gas emission allowances pursuant to Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowances trading within the Community  Text with EEA relevance",
+  "32011D0149": "2011/149/EU: Commission Decision of 7 March 2011 on historical aviation emissions pursuant to Article 3c(4) of Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowance trading within the Community (notified under document C(2011) 1328)  Text with EEA relevance",
+  "32011D0278": "2011/278/EU: Commission Decision of 27 April 2011 determining transitional Union-wide rules for harmonised free allocation of emission allowances pursuant to Article 10a of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2011) 2772)",
+  "32011D0389": "2011/389/EU: Commission Decision of 30 June 2011 on the Union-wide quantity of allowances referred to in Article 3e(3)(a) to (d) of Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowances trading within the Community  Text with EEA relevance",
+  "32011D0540": "2011/540/EU: Commission Decision of 18 August 2011 on amending Decision 2007/589/EC as regards the inclusion of monitoring and reporting guidelines for greenhouse gas emissions from new activities and gases (notified under document C(2011) 5861)  Text with EEA relevance",
+  "32011D0638": "2011/638/EU: Commission Decision of 26 September 2011 on benchmarks to allocate greenhouse gas emission allowances free of charge to aircraft operators pursuant to Article 3e of Directive 2003/87/EC of the European Parliament and of the Council  Text with EEA relevance",
+  "32011D0745": "2011/745/: Commission Decision of 11 November 2011 amending Decisions 2010/2/EU and 2011/278/EU as regards the sectors and subsectors which are deemed to be exposed to a significant risk of carbon leakage (notified under document C(2011) 8017) Text with EEA relevance",
+  "32011R0115": "Commission Regulation (EU) No 115/2011 of 2 February 2011 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator  Text with EEA relevance",
+  "32011R0394": "Commission Regulation (EU) No 394/2011 of 20 April 2011 amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator as regards the expansion of the Union emission trading scheme to EEA-EFTA countries  Text with EEA relevance",
+  "32011R0550": "Commission Regulation (EU) No 550/2011 of 7 June 2011 on determining, pursuant to Directive 2003/87/EC of the European Parliament and of the Council, certain restrictions applicable to the use of international credits from projects involving industrial gases  Text with EEA relevance",
+  "32011R1193": "Commission Regulation (EU) No 1193/2011 of 18 November 2011 establishing a Union Registry for the trading period commencing on 1 January 2013 , and subsequent trading periods, of the Union emissions trading scheme pursuant to Directive 2003/87/EC of the European Parliament and of the Council and Decision No 280/2004/EC of the European Parliament and of the Council and amending Commission Regulations (EC) No 2216/2004 and (EU) No 920/2010  Text with EEA relevance",
+  "32011R1210": "Commission Regulation (EU) No 1210/2011 of 23 November 2011 amending Regulation (EU) No 1031/2010 in particular to determine the volume of greenhouse gas emission allowances to be auctioned prior to 2013  Text with EEA relevance",
+  "32012D0498": "2012/498/EU: Commission Decision of 17 August 2012 amending Decisions 2010/2/EU and 2011/278/EU as regards the sectors and subsectors which are deemed to be exposed to a significant risk of carbon leakage (notified under document C(2012) 5715)  Text with EEA relevance",
+  "32012R0100": "Commission Regulation (EU) No 100/2012 of 3 February 2012 amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator also taking into consideration the expansion of the Union emission trading scheme to EEA-EFTA countries  Text with EEA relevance",
+  "32012R0600": "Commission Regulation (EU) No 600/2012 of 21 June 2012 on the verification of greenhouse gas emission reports and tonne-kilometre reports and the accreditation of verifiers pursuant to Directive 2003/87/EC of the European Parliament and of the Council  Text with EEA relevance",
+  "32012R0601": "Commission Regulation (EU) No 601/2012 of 21 June 2012 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council  Text with EEA relevance",
+  "32012R0784": "Commission Regulation (EU) No 784/2012 of 30 August 2012 amending Regulation (EU) No 1031/2010 to list an auction platform to be appointed by Germany and correcting Article 59(7) thereof  Text with EEA relevance",
+  "32012R1042": "Commission Regulation (EU) No 1042/2012 of 7 November 2012 amending Regulation (EU) No 1031/2010 to list an auction platform to be appointed by the United Kingdom  Text with EEA relevance",
+  "32013D0447": "2013/447/EU: Commission Decision of 5 September 2013 on the standard capacity utilisation factor pursuant to Article 18(2) of Decision 2011/278/EU  Text with EEA relevance",
+  "32013D0448": "2013/448/EU: Commission Decision of 5 September 2013 concerning national implementation measures for the transitional free allocation of greenhouse gas emission allowances in accordance with Article 11(3) of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2013) 5666)  Text with EEA relevance",
+  "32013D1359": "Decision No 1359/2013/EU of the European Parliament and of the Council of 17 December 2013 amending Directive 2003/87/EC clarifying provisions on the timing of auctions of greenhouse gas allowances  Text with EEA relevance",
+  "32013R0109": "Commission Regulation (EU) No 109/2013 of 29 January 2013 amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator also taking into consideration the expansion of the Union emission trading scheme to EEA-EFTA countries  Text with EEA relevance",
+  "32013R0389": "Commission Regulation (EU) No 389/2013 of 2 May 2013 establishing a Union Registry pursuant to Directive 2003/87/EC of the European Parliament and of the Council, Decisions No 280/2004/EC and No 406/2009/EC of the European Parliament and of the Council and repealing Commission Regulations (EU) No 920/2010 and No 1193/2011  Text with EEA relevance",
+  "32013R0815": "Commission Regulation (EU) No 815/2013 of 27 August 2013 amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator to take into consideration the accession of Croatia to the European Union  Text with EEA relevance",
+  "32013R1123": "Commission Regulation (EU) No 1123/2013 of 8 November 2013 on determining international credit entitlements pursuant to Directive 2003/87/EC of the European Parliament and of the Council  Text with EEA relevance",
+  "32013R1143": "Commission Regulation (EU) No 1143/2013 of 13 November 2013 amending Regulation (EU) No 1031/2010 on the timing, administration and other aspects of auctioning of greenhouse gas emission allowances pursuant to Directive 2003/87/EC of the European Parliament and of the Council establishing a scheme for greenhouse gas emission allowances trading within the Community in particular to list an auction platform to be appointed by Germany  Text with EEA relevance",
+  "32014D0009": "2014/9/EU: Commission Decision of 18 December 2013 amending Decisions 2010/2/EU and 2011/278/EU as regards the sectors and subsectors which are deemed to be exposed to a significant risk of carbon leakage (notified under document C(2013) 9186)  Text with EEA relevance",
+  "32014D0166": "2014/166/EU: Commission Implementing Decision of 21 March 2014 amending Decision 2005/381/EC as regards the questionnaire for reporting on the application of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2014) 1726)  Text with EEA relevance",
+  "32014D0746": "2014/746/EU: Commission Decision of 27 October 2014 determining, pursuant to Directive 2003/87/EC of the European Parliament and of the Council, a list of sectors and subsectors which are deemed to be exposed to a significant risk of carbon leakage, for the period 2015 to 2019 (notified under document C(2014) 7809)  Text with EEA relevance",
+  "32014R0100": "Commission Regulation (EU) No 100/2014 of 5 February 2014 amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator  Text with EEA relevance",
+  "32014R0176": "Commission Regulation (EU) No 176/2014 of 25 February 2014 amending Regulation (EU) No 1031/2010 in particular to determine the volumes of greenhouse gas emission allowances to be auctioned in 2013-20  Text with EEA relevance",
+  "32014R0206": "Commission Regulation (EU) No 206/2014 of 4 March 2014 amending Regulation (EU) No 601/2012 as regards global warming potentials for non-CO 2 greenhouse gases  Text with EEA relevance",
+  "32014R0421": "Regulation (EU) No 421/2014 of the European Parliament and of the Council of 16 April 2014 amending Directive 2003/87/EC establishing a scheme for greenhouse gas emission allowance trading within the Community, in view of the implementation by 2020 of an international agreement applying a single global market-based measure to international aviation emissions  Text with EEA relevance",
+  "32014R0743": "Commission Regulation (EU) No 743/2014 of 9 July 2014 replacing Annex VII to Regulation (EU) No 601/2012 as regards Minimum frequency of analyses  Text with EEA relevance",
+  "32015D0191": "Commission Decision (EU) 2015/191 of 5 February 2015 amending Decision 2010/670/EU as regards the extension of certain time limits laid down in Article 9 and Article 11(1) of that Decision (notified under document C(2015) 466)",
+  "32015D1814": "Decision (EU) 2015/1814 of the European Parliament and of the Council of 6 October 2015 concerning the establishment and operation of a market stability reserve for the Union greenhouse gas emission trading scheme and amending Directive 2003/87/EC (Text with EEA relevance)",
+  "32015R0180": "Commission Regulation (EU) 2015/180 of 9 February 2015 on amending Regulation (EC) No 748/2009 on the list of aircraft operators that performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator  Text with EEA relevance",
+  "32016D0775": "Commission Implementing Decision (EU) 2016/775 of 18 May 2016 on the benchmark to allocate greenhouse gas emission allowances free of charge to aircraft operators pursuant to Article 3f(5) of Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32016R0282": "Commission Regulation (EU) 2016/282 of 26 February 2016 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operatorText with EEA relevance",
+  "32017D0126": "Commission Decision (EU) 2017/126 of 24 January 2017 amending Decision 2013/448/EU as regards the establishment of a uniform cross-sectoral correction factor in accordance with Article 10a of Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance. )",
+  "32017D2172": "Commission Decision (EU) 2017/2172 of 20 November 2017 amending Decision 2010/670/EU as regards the deployment of non-disbursed revenues from the first round of calls for proposals (notified under document C(2017) 7656)",
+  "32017R0294": "Commission Regulation (EU) 2017/294 of 20 February 2017 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance. )",
+  "32017R1902": "Commission Regulation (EU) 2017/1902 of 18 October 2017 amending Commission Regulation (EU) No 1031/2010 to align the auctioning of allowances with Decision (EU) 2015/1814 of the European Parliament and of the Council and to list an auction platform to be appointed by the United Kingdom (Text with EEA relevance. )",
+  "32017R2392": "Regulation (EU) 2017/2392 of the European Parliament and of the Council of 13 December 2017 amending Directive 2003/87/EC to continue current limitations of scope for aviation activities and to prepare to implement a global market-based measure from 2021",
+  "32018L0410": "Directive (EU) 2018/410 of the European Parliament and of the Council of 14 March 2018 amending Directive 2003/87/EC to enhance cost-effective emission reductions and low-carbon investments, and Decision (EU) 2015/1814 (Text with EEA relevance. )",
+  "32018R0208": "Commission Regulation (EU) 2018/208 of 12 February 2018 amending Regulation (EU) No 389/2013 establishing a Union Registry (Text with EEA relevance. )",
+  "32018R0336": "Commission Regulation (EU) 2018/336 of 8 March 2018 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operatorText with EEA relevance.",
+  "32018R2066": "Commission Implementing Regulation (EU) 2018/2066 of 19 December 2018 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council and amending Commission Regulation (EU) No 601/2012 (Text with EEA relevance.)",
+  "32018R2067": "Commission Implementing Regulation (EU) 2018/2067 of 19 December 2018 on the verification of data and on the accreditation of verifiers pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance.)",
+  "32019D0708": "Commission Delegated Decision (EU) 2019/708 of 15 February 2019 supplementing Directive 2003/87/EC of the European Parliament and of the Council concerning the determination of sectors and subsectors deemed at risk of carbon leakage for the period 2021 to 2030 (Text with EEA relevance.)",
+  "32019R0007": "Commission Delegated Regulation (EU) 2019/7 of 30 October 2018 amending Regulation (EU) No 1031/2010 as regards the auctioning of 50 million unallocated allowances from the market stability reserve for the innovation fund and to list an auction platform to be appointed by Germany (Text with EEA relevance.)",
+  "32019R0225": "Commission Regulation (EU) 2019/225 of 6 February 2019 amending Regulation (EC) No 748/2009 as regards the aircraft operators for which the United Kingdom is specified as administering Member State (Text with EEA relevance.)",
+  "32019R0226": "Commission Regulation (EU) 2019/226 of 6 February 2019 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance.)",
+  "32019R0331": "Commission Delegated Regulation (EU) 2019/331 of 19 December 2018 determining transitional Union-wide rules for harmonised free allocation of emission allowances pursuant to Article 10a of Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance.)",
+  "32019R0401": "Commission Delegated Regulation (EU) 2019/401 of 19 December 2018 amending Regulation (EU) No 389/2013 establishing a Union Registry (Text with EEA relevance.)",
+  "32019R0856": "Commission Delegated Regulation (EU) 2019/856 of 26 February 2019 supplementing Directive 2003/87/EC of the European Parliament and of the Council with regard to the operation of the Innovation Fund (Text with EEA relevance.)",
+  "32019R1122": "Commission Delegated Regulation (EU) 2019/1122 of 12 March 2019 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards the functioning of the Union Registry (Text with EEA relevance.)",
+  "32019R1603": "Commission Delegated Regulation (EU) 2019/1603 of 18 July 2019 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards measures adopted by the International Civil Aviation Organisation for the monitoring, reporting and verification of aviation emissions for the purpose of implementing a global market-based measure (Text with EEA relevance.)",
+  "32019R1842": "Commission Implementing Regulation (EU) 2019/1842 of 31 October 2019 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards further arrangements for the adjustments to free allocation of emission allowances due to activity level changes",
+  "32019R1868": "Commission Delegated Regulation (EU) 2019/1868 of 28 August 2019 amending Regulation (EU) No 1031/2010 to align the auctioning of allowances with the EU ETS rules for the period 2021 to 2030 and with the classification of allowances as financial instruments pursuant to Directive 2014/65/EU of the European Parliament and of the Council (Text with EEA relevance)",
+  "32020D1071": "Commission Delegated Decision (EU) 2020/1071 of 18 May 2020 amending Directive 2003/87/EC of the European Parliament and of the Council, as regards the exclusion of incoming flights from Switzerland from the EU emissions trading system (Text with EEA relevance)",
+  "32020D1722": "Commission Decision (EU) 2020/1722 of 16 November 2020 on the Union-wide quantity of allowances to be issued under the EU Emissions Trading System for 2021 (notified under document C(2020)7704) (Text with EEA relevance)",
+  "32020D2166": "Commission Decision (EU) 2020/2166 of 17 December 2020 on the determination of the Member States’ auction shares during the period 2021-2030 of the EU Emissions Trading System (notified under document C(2020) 8945) (Text with EEA relevance)",
+  "32020R0535": "Commission Regulation (EU) 2020/535 of 8 April 2020 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance)",
+  "32020R1001": "Commission Implementing Regulation (EU) 2020/1001 of 9 July 2020 laying down detailed rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards the operation of the Modernisation Fund supporting investments to modernise the energy systems and to improve energy efficiency of certain Member States",
+  "32020R2084": "Commission Implementing Regulation (EU) 2020/2084 of 14 December 2020 amending and correcting Implementing Regulation (EU) 2018/2067 on the verification of data and on the accreditation of verifiers pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32020R2085": "Commission Implementing Regulation (EU) 2020/2085 of 14 December 2020 amending and correcting Implementing Regulation (EU) 2018/2066 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32021D0355": "Commission Decision (EU) 2021/355 of 25 February 2021 concerning national implementation measures for the transitional free allocation of greenhouse gas emission allowances in accordance with Article 11(3) of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2021) 1215) (Text with EEA relevance)",
+  "32021D0927": "Commission Implementing Decision (EU) 2021/927 of 31 May 2021 determining the uniform cross-sectoral correction factor for the adjustment of free allocations of emission allowances for the period 2021 to 2025 (notified under document C(2021) 3745) (Text with EEA relevance)",
+  "32021R0447": "Commission Implementing Regulation (EU) 2021/447 of 12 March 2021 determining revised benchmark values for free allocation of emission allowances for the period from 2021 to 2025 pursuant to Article 10a(2) of Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32021R0662": "Commission Regulation (EU) 2021/662 of 22 April 2021 amending Regulation (EC) No 748/2009 on the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance)",
+  "32021R1204": "Commission Delegated Regulation (EU) 2021/1204 of 10 May 2021 amending Delegated Regulation (EU) 2019/856 as regards the application and selection procedures under the Innovation Fund",
+  "32021R1416": "Commission Delegated Regulation (EU) 2021/1416 of 17 June 2021 amending Directive 2003/87/EC of the European Parliament and of the Council as regards the exclusion of incoming flights from the United Kingdom from the Union emissions trading system (Text with EEA relevance)",
+  "32022D0919": "Commission Implementing Decision (EU) 2022/919 of 8 June 2022 amending Commission Decision 2005/381/EC as regards the questionnaire for reporting on the application of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2022) 3604) (Text with EEA relevance)",
+  "32022D1028": "Commission Implementing Decision (EU) 2022/1028 of 27 June 2022 amending Decision (EU) 2021/355 as regards certain installations in Denmark, France and Sweden and included in the list of installations covered by the emissions trading system of the Union laid down in Directive 2003/87/EC (notified under document C(2022) 4289) (Text with EEA relevance)",
+  "32022R0388": "Commission Implementing Regulation (EU) 2022/388 of 8 March 2022 amending Implementing Regulation (EU) 2018/2066 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32022R0455": "Commission Regulation (EU) 2022/455 of 14 March 2022 amending Regulation (EC) No 748/2009 as regards the update of the list of aircraft operators which performed an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council on or after 1 January 2006 specifying the administering Member State for each aircraft operator (Text with EEA relevance)",
+  "32022R0827": "Commission Implementing Regulation (EU) 2022/827 of 20 May 2022 correcting the Danish language version of Implementing Regulation (EU) 2019/1842 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards further arrangements for the adjustments to free allocation of emission allowances due to activity level changes",
+  "32022R1371": "Commission Implementing Regulation (EU) 2022/1371 of 5 August 2022 correcting certain language versions of Implementing Regulation (EU) 2018/2066 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32023D0136": "Decision (EU) 2023/136 of the European Parliament and of the Council of 18 January 2023 amending Directive 2003/87/EC as regards the notification of offsetting in respect of a global market-based measure for aircraft operators based in the Union (Text with EEA relevance)",
+  "32023D1575": "Commission Decision (EU) 2023/1575 of 27 July 2023 on the Union-wide quantity of allowances to be issued under the EU Emissions Trading System for 2024 (Text with EEA relevance)",
+  "32023D2440": "Commission Decision (EU) 2023/2440 of 27 October 2023 on the Union-wide total quantity of allowances to be allocated in respect of aircraft operators under the EU Emissions Trading System for 2024",
+  "32023D2895": "Commission Implementing Decision (EU) 2023/2895 of 19 December 2023 laying down the list of islands and ports referred to in Article 12(3-d) of Directive 2003/87/EC of the European Parliament and of the Council and the list of transnational public service contracts or transnational public service obligations referred to in Article 12(3-c) of that Directive",
+  "32023L0958": "Directive (EU) 2023/958 of the European Parliament and of the Council of 10 May 2023 amending Directive 2003/87/EC as regards aviation’s contribution to the Union’s economy-wide emission reduction target and the appropriate implementation of a global market-based measure (Text with EEA relevance)",
+  "32023L0959": "Directive (EU) 2023/959 of the European Parliament and of the Council of 10 May 2023 amending Directive 2003/87/EC establishing a system for greenhouse gas emission allowance trading within the Union and Decision (EU) 2015/1814 concerning the establishment and operation of a market stability reserve for the Union greenhouse gas emission trading system (Text with EEA relevance)",
+  "32023R0435": "Regulation (EU) 2023/435 of the European Parliament and of the Council of 27 February 2023 amending Regulation (EU) 2021/241 as regards REPowerEU chapters in recovery and resilience plans and amending Regulations (EU) No 1303/2013, (EU) 2021/1060 and (EU) 2021/1755, and Directive 2003/87/EC",
+  "32023R0838": "Commission Regulation (EU) 2023/838 of 23 March 2023 amending Regulation (EC) No 748/2009 as regards the update of the list of aircraft operators performing an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council (Text with EEA relevance)",
+  "32023R1642": "Commission Delegated Regulation (EU) 2023/1642 of 14 June 2023 amending Delegated Regulation (EU) 2019/1122 as regards the modernisation of the functioning of the Union Registry (Text with EEA relevance)",
+  "32023R1773": "Commission Implementing Regulation (EU) 2023/1773 of 17 August 2023 laying down the rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards reporting obligations for the purposes of the carbon border adjustment mechanism during the transitional period (Text with EEA relevance)",
+  "32023R2122": "Commission Implementing Regulation (EU) 2023/2122 of 17 October 2023 amending Implementing Regulation (EU) 2018/2066 as regards updating the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32023R2297": "Commission Implementing Regulation (EU) 2023/2297 of 26 October 2023 identifying neighbouring container transhipment ports pursuant to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32023R2441": "Commission Implementing Regulation (EU) 2023/2441 of 31 October 2023 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards the content and format of climate-neutrality plans needed for granting free allocation of emission allowances",
+  "32023R2537": "Commission Delegated Regulation (EU) 2023/2537 of 15 September 2023 amending Delegated Regulation (EU) 2019/856 supplementing Directive 2003/87/EC of the European Parliament and of the Council with regard to the operation of the Innovation Fund",
+  "32023R2599": "Commission Implementing Regulation (EU) 2023/2599 of 22 November 2023 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards the administration of shipping companies by administering authorities in respect of a shipping company",
+  "32023R2606": "Commission Implementing Regulation (EU) 2023/2606 of 22 November 2023 amending Implementing Regulation (EU) 2020/1001 laying down detailed rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards the operation of the Modernisation Fund supporting investments to modernise the energy systems and to improve energy efficiency of certain Member States",
+  "32023R2830": "Commission Delegated Regulation (EU) 2023/2830 of 17 October 2023 supplementing Directive 2003/87/EC of the European Parliament and of the Council by laying down rules on the timing, administration and other aspects of auctioning of greenhouse gas emission allowances",
+  "32023R2904": "Commission Delegated Regulation (EU) 2023/2904 of 25 October 2023 amending Delegated Regulation (EU) 2019/1122 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards the functioning of the Union Registry",
+  "32024D0411": "Commission Implementing Decision (EU) 2024/411 of 30 January 2024 on the list of shipping companies specifying the administering authority in respect of a shipping company in accordance with Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024D1113": "Commission Implementing Decision (EU) 2024/1113 of 18 April 2024 amending Implementing Decision (EU) 2023/2895 as regards the list of islands and ports referred to in Article 12(3-d) of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024D1797": "Commission Decision (EU) 2024/1797 of 27 June 2024 amending Decision (EU) 2023/2440 as regards the adjustment of the quantity of allowances and the transfer of allowances to the Innovation Fund",
+  "32024D2924": "Commission Implementing Decision (EU) 2024/2924 of 27 November 2024 amending Commission Implementing Decision (EU) 2023/2895 as regards the list of islands and ports referred to in Article 12(3-d) of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024D2951": "Commission Decision (EU) 2024/2951 of 29 November 2024 on the Union-wide quantity of allowances to be issued under the EU ETS for buildings, road transport and additional sectors for 2027",
+  "32024D2985": "Commission Delegated Decision (EU) 2024/2985 of 24 September 2024 on the unilateral inclusion of sectors by the Netherlands in the emissions trading system within the Union for buildings, road transport and additional sectors pursuant to Article 30j of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024D2986": "Commission Delegated Decision (EU) 2024/2986 of 24 September 2024 on the unilateral inclusion of sectors by Austria in the emissions trading system within the Union for buildings, road transport and additional sectors pursuant to Article 30j of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024R0622": "Commission Implementing Regulation (EU) 2024/622 of 22 February 2024 on the list of States which are considered to be applying CORSIA for the purposes of Directive 2003/87/EC of the European Parliament and of the Council for emissions in 2023",
+  "32024R0795": "Regulation (EU) 2024/795 of the European Parliament and of the Council of 29 February 2024 establishing the Strategic Technologies for Europe Platform (STEP), and amending Directive 2003/87/EC and Regulations (EU) 2021/1058, (EU) 2021/1056, (EU) 2021/1057, (EU) No 1303/2013, (EU) No 223/2014, (EU) 2021/1060, (EU) 2021/523, (EU) 2021/695, (EU) 2021/697 and (EU) 2021/241",
+  "32024R0873": "Commission Delegated Regulation (EU) 2024/873 of 30 January 2024 amending Delegated Regulation (EU) 2019/331 as regards transitional Union-wide rules for harmonised free allocation of emission allowances",
+  "32024R1030": "Commission Regulation (EU) 2024/1030 of 27 March 2024 amending Regulation (EC) No 748/2009 as regards the update of the list of aircraft operators performing an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024R1321": "Commission Implementing Regulation (EU) 2024/1321 of 8 May 2024 amending Implementing Regulation (EU) 2018/2067 as regards the verification of data and the accreditation of verifiers",
+  "32024R1879": "Commission Implementing Regulation (EU) 2024/1879 of 9 July 2024 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards the calculation of offsetting requirements for the purpose of CORSIA",
+  "32024R2493": "Commission Implementing Regulation (EU) 2024/2493 of 23 September 2024 amending Implementing Regulation (EU) 2018/2066 as regards updating the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32024R2620": "Commission Delegated Regulation (EU) 2024/2620 of 30 July 2024 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards the requirements for considering that greenhouse gases have become permanently chemically bound in a product",
+  "32024R2649": "Commission Implementing Regulation (EU) 2024/2649 of 10 October 2024 correcting the Swedish language version of Implementing Regulation (EU) 2023/1773 laying down the rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards reporting obligations for the purposes of the carbon border adjustment mechanism during the transitional period",
+  "32024R2850": "Commission Implementing Regulation (EU) 2024/2850 of 11 November 2024 on the list of States which are considered to be applying CORSIA for the purposes of Directive 2003/87/EC of the European Parliament and of the Council for emissions in 2024",
+  "32024R3210": "Commission Implementing Regulation (EU) 2024/3210 of 18 December 2024 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the CBAM registry",
+  "32025D0318": "Commission Delegated Decision (EU) 2025/318 of 27 November 2024 on the unilateral inclusion of sectors by Sweden in the emissions trading system within the Union for buildings, road transport and additional sectors pursuant to Article 30j of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32025D0737": "Commission Delegated Decision (EU) 2025/737 of 15 April 2025 on the unilateral inclusion of sectors by Finland in the emissions trading system within the Union for buildings, road transport and additional sectors pursuant to Article 30j of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32025D1162": "Commission Implementing Decision (EU) 2025/1162 of 5 June 2025 amending Commission Decision 2005/381/EC as regards the questionnaire for reporting on the application of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2025) 3697)",
+  "32025D2452": "Commission Implementing Decision (EU) 2025/2452 of 5 December 2025 amending Implementing Decision (EU) 2024/411 to update the list of shipping companies specifying the administering authority in respect of a shipping company in accordance with Directive 2003/87/EC of the European Parliament and of the Council",
+  "32025R0486": "Commission Implementing Regulation (EU) 2025/486 of 17 March 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the conditions and procedures related to the status of authorised CBAM declarant",
+  "32025R0723": "Commission Delegated Regulation (EU) 2025/723 of 6 February 2025 supplementing Directive 2003/87/EC of the European Parliament and of the Council by laying down detailed rules for the yearly calculation of price differences between eligible aviation fuels and fossil kerosene and for the EU ETS allocation of allowances for the use of eligible aviation fuels",
+  "32025R0772": "Commission Implementing Regulation (EU) 2025/772 of 16 April 2025 amending and correcting Implementing Regulation (EU) 2019/1842 laying down rules for the application of Directive 2003/87/EC of the European Parliament and of the Council as regards further arrangements for the adjustments to free allocation of emission allowances due to activity level changes",
+  "32025R0842": "Commission Implementing Regulation (EU) 2025/842 of 6 May 2025 correcting certain language versions of Implementing Regulation (EU) 2018/2066 on the monitoring and reporting of greenhouse gas emissions pursuant to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32025R0927": "Commission Delegated Regulation (EU) 2025/927 of 20 May 2025 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards measures adopted by the International Civil Aviation Organization for the monitoring, reporting and verification of aviation emissions for the purpose of implementing a global market-based measure and repealing Commission Delegated Regulation (EU) 2019/1603",
+  "32025R1192": "Commission Implementing Regulation (EU) 2025/1192 of 18 June 2025 amending Implementing Regulation (EU) 2018/2067 as regards certain aspects on the verification of data and on the accreditation of verifiers",
+  "32025R1253": "Commission Delegated Regulation (EU) 2025/1253 of 11 February 2025 amending Delegated Regulation (EU) 2019/1122 supplementing Directive 2003/87/EC of the European Parliament and of the Council as regards the functioning of the Union Registry",
+  "32025R1500": "Commission Implementing Regulation (EU) 2025/1500 of 23 July 2025 on the list of States which are considered to be applying CORSIA for the purposes of Directive 2003/87/EC of the European Parliament and of the Council for emissions in 2025",
+  "32025R2083": "Regulation (EU) 2025/2083 of the European Parliament and of the Council of 8 October 2025 amending Regulation (EU) 2023/956 as regards simplifying and strengthening the carbon border adjustment mechanism (Text with EEA relevance)",
+  "32025R2210": "Commission Implementing Regulation (EU) 2025/2210 of 31 October 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards goods and processed products brought to the continental shelf or the exclusive economic zone of Member States",
+  "32025R2546": "Commission Implementing Regulation (EU) 2025/2546 of 10 December 2025 on the application of the principles for verification of declared embedded emissions pursuant to Regulation (EU) 2023/956 of the European Parliament and of the Council",
+  "32025R2547": "Commission Implementing Regulation (EU) 2025/2547 of 10 December 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and the Council as regards the methods for the calculation of emissions embedded in goods",
+  "32025R2548": "Commission Implementing Regulation (EU) 2025/2548 of 10 December 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the calculation and publication of the price of CBAM certificates",
+  "32025R2549": "Commission Implementing Regulation (EU) 2025/2549 of 10 December 2025 amending and correcting Implementing Regulation (EU) 2025/486 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the conditions and procedures related to the status of authorised CBAM declarant",
+  "32025R2550": "Commission Implementing Regulation (EU) 2025/2550 of 10 December 2025 amending and correcting Implementing Regulation (EU) 2024/3210 as regards the CBAM registry",
+  "32025R2551": "Commission Delegated Regulation (EU) 2025/2551 of 20 November 2025 supplementing Regulation (EU) 2023/956 of the European Parliament and of the Council by specifying the conditions for granting accreditation to verifiers, for the control and oversight of accredited verifiers, for the withdrawal of accreditation and for mutual recognition and peer evaluation of accreditation bodies",
+  "32025R2619": "Commission Implementing Regulation (EU) 2025/2619 of 16 December 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the information communicated by customs authorities",
+  "32025R2620": "Commission Implementing Regulation (EU) 2025/2620 of 16 December 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and of the Council as regards the calculation of the free allocation adjustment to the number of CBAM certificates to be surrendered",
+  "32025R2621": "Commission Implementing Regulation (EU) 2025/2621 of 16 December 2025 laying down rules for the application of Regulation (EU) 2023/956 of the European Parliament and the Council as regards the establishment of default values",
+  "32026D1283": "Commission Decision (EU) 2026/1283 of 9 June 2026 establishing the Battery Booster Facility and serving as financing decision for 2026",
+  "32026D1312": "Commission Decision (EU) 2026/1312 of 15 June 2026 concerning national implementation measures for the transitional free allocation of greenhouse gas emission allowances for the period 2026 to 2030 in accordance with Article 11(3) of Directive 2003/87/EC of the European Parliament and of the Council (notified under document C(2026) 3975)",
+  "32026D1453": "Commission Implementing Decision (EU) 2026/1453 of 2 July 2026 correcting Commission Implementing Decision (EU) 2024/411 on the list of shipping companies specifying the administering authority in respect of a shipping company in accordance with Directive 2003/87/EC of the European Parliament and of the Council",
+  "32026D1862": "Commission Implementing Decision (EU) 2026/1862 of 23 July 2026 determining the uniform cross-sectoral correction factor for the adjustment of free allocations of emission allowances for the period 2026 to 2030 (notified under document C(2026) 5379)",
+  "32026R0389": "Commission Implementing Regulation (EU) 2026/389 of 23 February 2026 amending Implementing Regulation (EU) 2021/447 as regards the determination of a revised soda ash benchmark value for the year 2025",
+  "32026R0784": "Commission Regulation (EU) 2026/784 of 26 March 2026 amending Regulation (EC) No 748/2009 to update the list of aircraft operators performing an aviation activity listed in Annex I to Directive 2003/87/EC of the European Parliament and of the Council",
+  "32026R0787": "Commission Delegated Regulation (EU) 2026/787 of 8 April 2026 amending Delegated Regulation (EU) 2023/2830 as regards rules on the timing, administration and other aspects of auctioning of greenhouse gas emission allowances",
+  "32026R1412": "Commission Implementing Regulation (EU) 2026/1412 of 26 June 2026 determining revised benchmark values for free allocation of emission allowances for the period from 2026 to 2030 pursuant to Article 10a(2) of Directive 2003/87/EC of the European Parliament and of the Council",
+  "32026R1740": "Commission Implementing Regulation (EU) 2026/1740 of 20 July 2026 correcting Implementing Regulation (EU) 2025/2621 as regards Annexes I and IV thereto"
+ }
+}
