@@ -130,6 +130,7 @@ Generated 2026-09-08 by build_db.py. Every tracked document and instrument. The 
 | ua-carbon-tax | Ukraine carbon tax | UA | carbon_tax | in_force |
 | ua-ets | Ukraine ETS | UA | ets | under_development |
 | uk-carbon-tax | UK Carbon Price Support | UK | carbon_tax | in_force |
+| uk-cbam | UK Carbon Border Adjustment Mechanism | UK | border_mechanism | enacted_future_start |
 | uk-ets | UK ETS | UK | ets | in_force |
 | us-california-ets | California CaT | US-CALIFORNIA | ets | in_force |
 | us-co-ets | Colorado GHG crediting trading system | US-CO | ets | in_force |
@@ -156,7 +157,7 @@ Generated 2026-09-08 by build_db.py. Every tracked document and instrument. The 
 | eu-2025-2546 | CBAM | implementing_regulation | in_force | Verification specifics + report template | 9 |  |
 | eu-2025-2547 | CBAM | implementing_regulation | in_force | Monitoring and reporting for the definitive period (the CBAM MRR) | 22 |  |
 | eu-2025-2620 | CBAM | implementing_regulation | in_force | Benchmarks + free-allocation adjustment | 7 |  |
-| eu-2025-2621 | CBAM | implementing_regulation | in_force | Default values (very large; tables) | 7 | large_document |
+| eu-2025-2621 | CBAM | implementing_regulation | in_force | Default values (very large; tables); Annexes I+IV corrected by 2026/1740 | 7 | large_document |
 | eu-2024-2620 | CBAM | delegated_regulation | in_force | Permanently chemically bound CO2 - eligible products list | 7 |  |
 | eu-2018-2066 | ETS | implementing_regulation | in_force | MRR - monitoring and reporting (consolidated) | 125 |  |
 | eu-2018-2067 | ETS | implementing_regulation | in_force | AVR - accreditation and verification (consolidated, incl. ETS2 Ch IIIa) | 117 |  |
@@ -164,12 +165,28 @@ Generated 2026-09-08 by build_db.py. Every tracked document and instrument. The 
 | eu-2019-331 | ETS | delegated_regulation | in_force | FAR - free allocation rules (consolidated) | 41 |  |
 | eu-2019-1842 | ETS | implementing_regulation | in_force | ALCR - activity level changes (consolidated) | 16 |  |
 | eu-2023-1773 | CBAM | implementing_regulation | superseded | Transitional-period reporting rules (superseded for definitive period by 2025/2547) | 50 |  |
+| eu-2025-486 | CBAM | implementing_regulation | in_force | Application rules under 2023/956 (Mar 2025) | 31 |  |
+| eu-2025-2210 | CBAM | implementing_regulation | in_force | Application rules under 2023/956 (Oct 2025) | 15 |  |
+| eu-2025-2548 | CBAM | implementing_regulation | in_force | Application rules under 2023/956 (Dec 2025; certificate pricing) | 10 |  |
+| eu-2025-2549 | CBAM | implementing_regulation | in_force | Amends and corrects IR 2025/486 | 4 |  |
+| eu-2025-2550 | CBAM | implementing_regulation | in_force | Amends and corrects IR 2024/3210 (registry) | 3 |  |
+| eu-2025-2619 | CBAM | implementing_regulation | in_force | Application rules under 2023/956 (Dec 2025) | 11 |  |
+| eu-2024-3210 | CBAM | implementing_regulation | in_force | Application rules under 2023/956 (Dec 2024; registry) | 26 |  |
+| eu-2026-1740 | CBAM | implementing_regulation | in_force | Corrects IR 2025/2621 Annexes I and IV (default values) | 5 |  |
 
 ## Documents — TR
 
 | id | regime | type | status | role | units | notes |
 |---|---|---|---|---|---|---|
 | tr-7552 | ETS | statute | in_force | Iklim Kanunu (Climate Law no. 7552) - legal basis for the Turkish ETS and SKDM | 21 | non_eurlex |
+
+## Documents — UK
+
+| id | regime | type | status | role | units | notes |
+|---|---|---|---|---|---|---|
+| uk-fa-2026-part5 | CBAM | statute | in_force | Finance Act 2026, Part 5 - the UK CBAM charge | 0 |  |
+| uk-si-2026-802 | CBAM | implementing_regulation | in_force | CBAM (Administrative Provisions) Regulations 2026; in force 1 Jan 2027 | 0 |  |
+| uk-si-2026-830 | CBAM | implementing_regulation | in_force | CBAM (Transitory Provision) Regulations 2026; in force 1 Jan 2027 | 0 |  |
 
 ## Curated document relations
 

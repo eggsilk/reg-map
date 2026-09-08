@@ -2,92 +2,176 @@
   "eu-2023-956": {
     "id": "eu-2023-956",
     "ok": true,
-    "bytes": 507710,
+    "bytes": 507709,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02023R0956-20251020",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2025-2551": {
     "id": "eu-2025-2551",
     "ok": true,
-    "bytes": 287876,
+    "bytes": 287877,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2551",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2025-2546": {
     "id": "eu-2025-2546",
     "ok": true,
-    "bytes": 130263,
+    "bytes": 130264,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2546",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2025-2547": {
     "id": "eu-2025-2547",
     "ok": true,
-    "bytes": 1363302,
+    "bytes": 1363301,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2547",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2025-2620": {
     "id": "eu-2025-2620",
     "ok": true,
     "bytes": 954561,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2620",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2025-2621": {
     "id": "eu-2025-2621",
     "ok": true,
-    "bytes": 19822988,
-    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2621",
-    "fetched_at": "2026-09-01"
+    "bytes": 12364464,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02025R2621-20260101",
+    "fetched_at": "2026-09-08"
   },
   "eu-2024-2620": {
     "id": "eu-2024-2620",
     "ok": true,
     "bytes": 33736,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2620",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2018-2066": {
     "id": "eu-2018-2066",
     "ok": true,
-    "bytes": 1425167,
+    "bytes": 1425168,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02018R2066-20250527",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2018-2067": {
     "id": "eu-2018-2067",
     "ok": true,
-    "bytes": 677190,
+    "bytes": 677191,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02018R2067-20250622",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2003-87": {
     "id": "eu-2003-87",
     "ok": true,
-    "bytes": 729473,
+    "bytes": 729472,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02003L0087-20240301",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2019-331": {
     "id": "eu-2019-331",
     "ok": true,
-    "bytes": 776440,
+    "bytes": 776441,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02019R0331-20240101",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2019-1842": {
     "id": "eu-2019-1842",
     "ok": true,
-    "bytes": 86225,
+    "bytes": 86226,
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02019R1842-20260101",
-    "fetched_at": "2026-09-01"
+    "fetched_at": "2026-09-08"
   },
   "eu-2023-1773": {
     "id": "eu-2023-1773",
     "ok": true,
-    "bytes": 1563999,
-    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1773",
-    "fetched_at": "2026-09-01"
+    "bytes": 1386394,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02023R1773-20241031",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-486": {
+    "id": "eu-2025-486",
+    "ok": true,
+    "bytes": 128984,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R0486",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-2210": {
+    "id": "eu-2025-2210",
+    "ok": true,
+    "bytes": 166787,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2210",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-2548": {
+    "id": "eu-2025-2548",
+    "ok": true,
+    "bytes": 32999,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2548",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-2549": {
+    "id": "eu-2025-2549",
+    "ok": true,
+    "bytes": 40406,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2549",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-2550": {
+    "id": "eu-2025-2550",
+    "ok": true,
+    "bytes": 75563,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2550",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2025-2619": {
+    "id": "eu-2025-2619",
+    "ok": true,
+    "bytes": 53595,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32025R2619",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2024-3210": {
+    "id": "eu-2024-3210",
+    "ok": true,
+    "bytes": 108358,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R3210",
+    "fetched_at": "2026-09-08"
+  },
+  "eu-2026-1740": {
+    "id": "eu-2026-1740",
+    "ok": true,
+    "bytes": 16376562,
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32026R1740",
+    "fetched_at": "2026-09-08"
+  },
+  "tr-7552": {
+    "id": "tr-7552",
+    "ok": true,
+    "bytes": 71323,
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7552&MevzuatTur=1&MevzuatTertip=5",
+    "fetched_at": "2026-09-08"
+  },
+  "uk-fa-2026-part5": {
+    "id": "uk-fa-2026-part5",
+    "ok": true,
+    "bytes": 109447,
+    "url": "https://www.legislation.gov.uk/ukpga/2026/11/part/5",
+    "fetched_at": "2026-09-08"
+  },
+  "uk-si-2026-802": {
+    "id": "uk-si-2026-802",
+    "ok": true,
+    "bytes": 67122,
+    "url": "https://www.legislation.gov.uk/uksi/2026/802/made",
+    "fetched_at": "2026-09-08"
+  },
+  "uk-si-2026-830": {
+    "id": "uk-si-2026-830",
+    "ok": true,
+    "bytes": 35493,
+    "url": "https://www.legislation.gov.uk/uksi/2026/830/made",
+    "fetched_at": "2026-09-08"
   }
 }

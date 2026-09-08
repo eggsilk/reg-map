@@ -20,10 +20,11 @@ WB_CPD = ROOT / "corpus" / "directories" / "wb_cpd.json"
 INDEX_MD = ROOT / "INDEX.md"
 
 STATUS_ENUM = ("under_consideration", "under_development", "enabled_not_established",
-               "pilot_mandated", "pilot_operational", "in_force", "suspended", "abolished")
+               "pilot_mandated", "pilot_operational", "enacted_future_start",
+               "in_force", "suspended", "abolished")
 DOC_REL_ENUM = ("cites", "legal_basis", "amends", "completes", "corrects", "consolidates",
                 "repeals", "proposes_to_amend", "supersedes", "responds_to")
-INSTR_REL_ENUM = ("modeled_on", "linked_by_treaty", "responds_to", "replaces")
+INSTR_REL_ENUM = ("modeled_on", "linked_by_treaty", "negotiating_link", "responds_to", "replaces")
 LICENSE_ENUM = ("cc-by-4.0", "public-law", "copyright-linkout", "manual")
 
 SCHEMA = f"""

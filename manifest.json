@@ -61,8 +61,8 @@
       "jurisdiction": "EU",
       "regime": "CBAM",
       "instrument_type": "implementing_regulation",
-      "role": "Default values (very large; tables)",
-      "celex": "32025R2621",
+      "role": "Default values (very large; tables); Annexes I+IV corrected by 2026/1740",
+      "celex": "02025R2621-20260101",
       "language": "en",
       "status": "in_force",
       "tier": "A",
@@ -140,10 +140,79 @@
       "regime": "CBAM",
       "instrument_type": "implementing_regulation",
       "role": "Transitional-period reporting rules (superseded for definitive period by 2025/2547)",
-      "celex": "32023R1773",
+      "celex": "02023R1773-20241031",
       "language": "en",
       "status": "superseded",
       "tier": "A"
+    },
+    {
+      "id": "eu-2025-486",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Application rules under 2023/956 (Mar 2025)",
+      "celex": "32025R0486", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2025-2210",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Application rules under 2023/956 (Oct 2025)",
+      "celex": "32025R2210", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2025-2548",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Application rules under 2023/956 (Dec 2025; certificate pricing)",
+      "celex": "32025R2548", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2025-2549",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Amends and corrects IR 2025/486",
+      "celex": "32025R2549", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2025-2550",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Amends and corrects IR 2024/3210 (registry)",
+      "celex": "32025R2550", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2025-2619",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Application rules under 2023/956 (Dec 2025)",
+      "celex": "32025R2619", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2024-3210",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Application rules under 2023/956 (Dec 2024; registry)",
+      "celex": "32024R3210", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "eu-2026-1740",
+      "jurisdiction": "EU", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "Corrects IR 2025/2621 Annexes I and IV (default values)",
+      "celex": "32026R1740", "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "uk-fa-2026-part5",
+      "jurisdiction": "UK", "regime": "CBAM", "instrument_type": "statute",
+      "role": "Finance Act 2026, Part 5 - the UK CBAM charge",
+      "source_url": "https://www.legislation.gov.uk/ukpga/2026/11/part/5",
+      "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "uk-si-2026-802",
+      "jurisdiction": "UK", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "CBAM (Administrative Provisions) Regulations 2026; in force 1 Jan 2027",
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/802/made",
+      "language": "en", "status": "in_force", "tier": "A"
+    },
+    {
+      "id": "uk-si-2026-830",
+      "jurisdiction": "UK", "regime": "CBAM", "instrument_type": "implementing_regulation",
+      "role": "CBAM (Transitory Provision) Regulations 2026; in force 1 Jan 2027",
+      "source_url": "https://www.legislation.gov.uk/uksi/2026/830/made",
+      "language": "en", "status": "in_force", "tier": "A"
     },
     {
       "id": "tr-7552",

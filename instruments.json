@@ -6,7 +6,8 @@
     {"id": "src-cellar", "kind": "cellar", "ref": "https://publications.europa.eu/webapi/rdf/sparql", "license": "public-law", "fetched": null},
     {"id": "src-wb-cpd", "kind": "directory", "ref": "https://datacatalog.worldbank.org/search/dataset/0042051", "license": "cc-by-4.0", "fetched": "2026-09-08"},
     {"id": "src-cclw", "kind": "directory", "ref": "https://climate-laws.org", "license": "cc-by-4.0", "fetched": null},
-    {"id": "src-icap", "kind": "directory", "ref": "https://icapcarbonaction.com/en/ets", "license": "copyright-linkout", "fetched": null}
+    {"id": "src-icap", "kind": "directory", "ref": "https://icapcarbonaction.com/en/ets", "license": "copyright-linkout", "fetched": null},
+    {"id": "src-uk-legislation", "kind": "primary_text", "ref": "https://www.legislation.gov.uk", "license": "public-law", "fetched": "2026-09-09"}
   ],
   "instruments": [
     {
@@ -55,6 +56,21 @@
       "unverified": ["implementing yönetmelik status", "pilot start date"]
     },
     {
+      "id": "uk-cbam",
+      "name_en": "UK Carbon Border Adjustment Mechanism",
+      "name_local": "UK Carbon Border Adjustment Mechanism",
+      "jurisdiction": "UK",
+      "instrument_type": "border_mechanism",
+      "status": "enacted_future_start",
+      "status_source": "src-uk-legislation",
+      "status_basis_doc": "uk-fa-2026-part5",
+      "status_basis_unit": null,
+      "last_checked": "2026-09-09",
+      "publishable": 1,
+      "notes": "Enacted as Part 5 of the Finance Act 2026; charges to CBAM arise from 1 January 2027 (SI 2026/830, SI 2026/802 both in force 1 Jan 2027).",
+      "unverified": []
+    },
+    {
       "id": "tr-skdm",
       "name_en": "Turkey Border Carbon Regulation Mechanism (SKDM)",
       "name_local": "Sınırda Karbon Düzenleme Mekanizması (SKDM)",
@@ -71,6 +87,9 @@
     }
   ],
   "memberships": [
+    {"doc": "uk-fa-2026-part5", "instrument": "uk-cbam", "role": "legal_basis"},
+    {"doc": "uk-si-2026-802", "instrument": "uk-cbam", "role": "implementing_regulation"},
+    {"doc": "uk-si-2026-830", "instrument": "uk-cbam", "role": "implementing_regulation"},
     {"doc": "eu-2003-87", "instrument": "eu-ets", "role": "legal_basis"},
     {"doc": "eu-2018-2066", "instrument": "eu-ets", "role": "implementing_regulation"},
     {"doc": "eu-2018-2067", "instrument": "eu-ets", "role": "implementing_regulation"},
@@ -89,6 +108,7 @@
   ],
   "instrument_edges": [
     {"from": "ch-ets", "to": "eu-ets", "rel_type": "linked_by_treaty", "source": "src-wb-cpd", "publishable": 1, "note": "Linked since January 2020; covered entities in each system can use the other's allowances for compliance (WB CPD, May 2026 edition)."},
+    {"from": "uk-ets", "to": "eu-ets", "rel_type": "negotiating_link", "source": "src-wb-cpd", "publishable": 1, "note": "May 2025: UK and EU announced their intention to work towards linking the two systems, including conditions for mutual CBAM exemptions; formal linkage not yet established (WB CPD, May 2026 edition)."},
     {"from": "tr-ets", "to": "eu-ets", "rel_type": "modeled_on", "source": null, "publishable": 0, "note": "Pending: directory factsheet or primary-text basis required before this edge renders."},
     {"from": "tr-skdm", "to": "eu-cbam", "rel_type": "responds_to", "source": null, "publishable": 0, "note": "Pending: needs a citable source; our own market thesis is not a source."}
   ]

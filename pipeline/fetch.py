@@ -17,6 +17,11 @@ FETCH_LOG = ROOT / "corpus" / "fetch_log.json"
 
 def fetch_doc(doc):
     html_path, txt_path = doc_paths(doc)
+    if "non_eurlex" in doc.get("flags", []):
+        # manual ingestion path (e.g. mevzuat.gov.tr serves a JS shell; the real text
+        # comes from a PDF via curl + pdfplumber, see project memory). Never overwrite.
+        return {"id": doc["id"], "ok": False, "skipped": True,
+                "error": "non_eurlex: manual fetch path, corpus preserved"}
     if "celex" in doc:
         lang = doc.get("language", "en").upper()
         url = EURLEX_HTML.format(lang=lang, celex=doc["celex"])
@@ -63,8 +68,10 @@ def main():
         if res["ok"]:
             log[doc["id"]] = res
     FETCH_LOG.write_text(json.dumps(log, indent=2), encoding="utf-8")
-    fails = [r for r in results if not r["ok"]]
-    print(f"\n{len(results) - len(fails)} fetched, {len(fails)} failed.")
+    fails = [r for r in results if not r["ok"] and not r.get("skipped")]
+    skips = [r for r in results if r.get("skipped")]
+    print(f"\n{len(results) - len(fails) - len(skips)} fetched, "
+          f"{len(skips)} skipped (manual path), {len(fails)} failed.")
     sys.exit(1 if fails else 0)
 
 
