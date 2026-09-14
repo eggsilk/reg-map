@@ -31,17 +31,21 @@ jobs:
           python pipeline/build_db.py 2>&1 | tee ci_log_build.txt
       - name: Commit changes
         run: |
-          git config user.name "reg-map watcher"
-          git config user.email "actions@users.noreply.github.com"
-          rm -f ci_log_*.txt
-          git add -A ':!db'
-          if git diff --cached --quiet; then
-            echo "No changes."
-          else
-            NEW=$(python -c "import json; r=json.load(open('watch_report.json')); print(len(r['new_findings']))")
-            git commit -m "watch: $NEW new finding(s) $(date -u +%F)"
-            git push
-          fi
+          set -o pipefail
+          {
+            set -x
+            git config user.name "reg-map watcher"
+            git config user.email "actions@users.noreply.github.com"
+            rm -f ci_log_watch.txt ci_log_fetch.txt ci_log_build.txt
+            git add -A ':!db'
+            if git diff --cached --quiet; then
+              echo "No changes."
+            else
+              NEW=$(python -c "import json; r=json.load(open('watch_report.json')); print(len(r['new_findings']))")
+              git commit -m "watch: $NEW new finding(s) $(date -u +%F)"
+              git push
+            fi
+          } 2>&1 | tee ci_log_commit.txt
       - name: Commit failure log
         if: failure()
         run: |
