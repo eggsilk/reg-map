@@ -1,0 +1,4 @@
++ git config user.name 'reg-map watcher'
++ git config user.email actions@users.noreply.github.com
++ rm -f ci_log_watch.txt ci_log_fetch.txt ci_log_build.txt
++ git add -A ':!db'
