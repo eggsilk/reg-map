@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: "0 6 * * 1,4"   # Monday and Thursday 06:00 UTC
   workflow_dispatch: {}
-  push:
-    branches: [main]        # TEMPORARY: debugging the failing scheduled run
 
 permissions:
   contents: write

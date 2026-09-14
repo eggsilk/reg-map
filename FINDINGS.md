@@ -67,6 +67,13 @@ Source material for the eventual site write-up; not itself site copy.
   arithmetic predicted; chasing it exposed duplicate rows from joining on CELEX strings instead
   of act identity (a consolidated id doesn't contain its base id). When derived numbers don't
   reconcile, the pipeline is wrong somewhere — never shrug at a delta.
+- **The same git command passed on one machine and killed the schedule on another
+  (2026-09-14).** Both scheduled watch runs died in the commit step: the CI runner's git
+  refuses `git add -A ':!db'` because `db` is gitignored, and exits non-zero; the same
+  command runs silently on the development machine (version-dependent pathspec handling —
+  inference; the refusal itself is verbatim from the runner's log). Diagnosed without log
+  access by teaching the workflow to commit its own failure logs back to the repo — the
+  self-updating system debugging itself through the only channel it has: commits.
 - **The gazette watcher saw real news on day one (2026-09-08).** Turkey's ratification
   decisions with the UNFCCC Secretariat (COP31 hosting) appeared in that morning's Resmî
   Gazete scan.
