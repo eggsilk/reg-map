@@ -1,12 +1,29 @@
 {
-  "run": "2026-09-08T18:42:17",
-  "new_findings": [
-    {
-      "type": "wb_new_edition",
-      "file": "sites/default/files/2026-08/Download_data_May_2026.xlsx",
-      "url": "https://carbonpricingdashboard.worldbank.org/sites/default/files/2026-08/Download_data_May_2026.xlsx"
-    }
-  ],
-  "total_findings": 82,
-  "errors": []
+  "run": "2026-09-14T12:23:25",
+  "new_findings": [],
+  "total_findings": 77,
+  "errors": [
+    "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2546: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2547: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2620: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2621: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2024-2620: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2018-2066: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2018-2067: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2003-87: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2019-331: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2019-1842: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2023-1773: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-486: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2210: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2548: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2549: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2550: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2025-2619: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2024-3210: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[consolidations] eu-2026-1740: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[tr_gazette] resmigazete: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+  ]
 }
