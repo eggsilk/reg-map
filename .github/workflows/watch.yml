@@ -3,6 +3,8 @@ on:
   schedule:
     - cron: "0 6 * * 1,4"   # Monday and Thursday 06:00 UTC
   workflow_dispatch: {}
+  push:
+    branches: [main]        # TEMPORARY: debugging the failing scheduled run
 
 permissions:
   contents: write
@@ -16,15 +18,22 @@ jobs:
         with:
           python-version: "3.13"
       - name: Run watcher
-        run: python pipeline/watch.py
+        run: |
+          set -o pipefail
+          python pipeline/watch.py 2>&1 | tee ci_log_watch.txt
       - name: Fetch any newly tracked documents
-        run: python pipeline/fetch.py || true
+        run: |
+          set -o pipefail
+          (python pipeline/fetch.py || true) 2>&1 | tee ci_log_fetch.txt
       - name: Rebuild database and index
-        run: python pipeline/build_db.py
+        run: |
+          set -o pipefail
+          python pipeline/build_db.py 2>&1 | tee ci_log_build.txt
       - name: Commit changes
         run: |
           git config user.name "reg-map watcher"
           git config user.email "actions@users.noreply.github.com"
+          rm -f ci_log_*.txt
           git add -A ':!db'
           if git diff --cached --quiet; then
             echo "No changes."
@@ -33,3 +42,19 @@ jobs:
             git commit -m "watch: $NEW new finding(s) $(date -u +%F)"
             git push
           fi
+      - name: Commit failure log
+        if: failure()
+        run: |
+          git config user.name "reg-map watcher"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir -p ci_debug
+          for f in ci_log_*.txt; do [ -e "$f" ] && mv "$f" ci_debug/ || true; done
+          {
+            echo "run: $(date -u +%FT%TZ)"
+            echo "commit: $GITHUB_SHA"
+            python --version 2>&1 || true
+          } > ci_debug/run_info.txt
+          git add ci_debug
+          git commit -m "ci: failure log from regulatory-watch run" || echo "nothing to commit"
+          git pull --rebase origin main || true
+          git push || echo "push failed"
