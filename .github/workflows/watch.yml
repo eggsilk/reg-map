@@ -37,7 +37,10 @@ jobs:
             git config user.name "reg-map watcher"
             git config user.email "actions@users.noreply.github.com"
             rm -f ci_log_watch.txt ci_log_fetch.txt ci_log_build.txt
-            git add -A ':!db'
+            rm -rf ci_debug
+            # plain add: db/ is gitignored; an explicit ':!db' pathspec makes the
+            # runner's git error out ("paths are ignored by .gitignore: db")
+            git add -A
             if git diff --cached --quiet; then
               echo "No changes."
             else
