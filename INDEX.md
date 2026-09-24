@@ -1,6 +1,6 @@
 # Document Index
 
-Generated 2026-09-21 by build_db.py. Every tracked document and instrument. The database (db/regmap.db) is derived; rebuild with `py pipeline/build_db.py`.
+Generated 2026-09-24 by build_db.py. Every tracked document and instrument. The database (db/regmap.db) is derived; rebuild with `py pipeline/build_db.py`.
 
 ## Instruments
 

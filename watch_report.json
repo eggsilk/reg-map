@@ -1,5 +1,5 @@
 {
-  "run": "2026-09-21T12:24:28",
+  "run": "2026-09-24T11:24:07",
   "new_findings": [],
   "total_findings": 77,
   "errors": [
@@ -23,7 +23,6 @@
     "[consolidations] eu-2025-2550: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2619: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2024-3210: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
-    "[consolidations] eu-2026-1740: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
-    "[tr_gazette] resmigazete: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    "[consolidations] eu-2026-1740: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))"
   ]
 }
