@@ -77,7 +77,10 @@
  "{\"doc\": \"eu-2025-2621\", \"have\": \"(base act)\", \"latest\": \"20260101\", \"type\": \"new_consolidation\"}",
  "{\"file\": \"sites/default/files/2026-08/Download_data_May_2026.xlsx\", \"type\": \"wb_new_edition\", \"url\": \"https://carbonpricingdashboard.worldbank.org/sites/default/files/2026-08/Download_data_May_2026.xlsx\"}",
  "{\"keyword\": \"iklim\", \"type\": \"tr_gazette_hit\"}",
+ "{\"label\": \"CBAM De Minimis Threshold Assessment\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en\"}",
  "{\"label\": \"CBAM webinar follow up: \\u201cBecome a CBAM verifier: all about accreditation and verification\\u201d\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"/news/cbam-webinar-follow-become-cbam-verifier-all-about-accreditation-and-verification-2026-07-31_en\"}",
  "{\"label\": \"Guidance documents on CBAM implementation for installation operators outside the EU\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"/news/european-commission-publishes-series-guidance-documents-support-cbam-implementation-definitive-2026-08-14_en\"}",
- "{\"label\": \"Guidance on CBAM verification and accreditation now available\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/european-commission-publishes-guidance-cbam-verifiers-and-accreditation-bodies-2026-08-24_en\"}"
+ "{\"label\": \"Guidance on CBAM verification and accreditation now available\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/european-commission-publishes-guidance-cbam-verifiers-and-accreditation-bodies-2026-08-24_en\"}",
+ "{\"label\": \"New resources available for CBAM verifiers\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/new-resources-available-cbam-verifiers-2026-09-28_en\"}",
+ "{\"label\": \"Webinar follow-up: \\u201cCBAM from policy to practice \\u2013 emissions calculation, declarations, and certificates\\u201d\", \"page\": \"ec-cbam-news\", \"type\": \"page_item\", \"url\": \"https://taxation-customs.ec.europa.eu/news/webinar-follow-cbam-policy-practice-emissions-calculation-declarations-and-certificates-2026-09-30_en\"}"
 ]
