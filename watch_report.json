@@ -1,26 +1,7 @@
 {
-  "run": "2026-10-01T12:46:29",
-  "new_findings": [
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "Webinar follow-up: “CBAM from policy to practice – emissions calculation, declarations, and certificates”",
-      "url": "https://taxation-customs.ec.europa.eu/news/webinar-follow-cbam-policy-practice-emissions-calculation-declarations-and-certificates-2026-09-30_en"
-    },
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "CBAM De Minimis Threshold Assessment",
-      "url": "https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en"
-    },
-    {
-      "type": "page_item",
-      "page": "ec-cbam-news",
-      "label": "New resources available for CBAM verifiers",
-      "url": "https://taxation-customs.ec.europa.eu/news/new-resources-available-cbam-verifiers-2026-09-28_en"
-    }
-  ],
-  "total_findings": 78,
+  "run": "2026-10-05T14:04:53",
+  "new_findings": [],
+  "total_findings": 77,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
