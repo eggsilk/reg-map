@@ -1,7 +1,13 @@
 {
-  "run": "2026-10-05T14:04:53",
-  "new_findings": [],
-  "total_findings": 77,
+  "run": "2026-10-08T13:05:59",
+  "new_findings": [
+    {
+      "type": "untracked_citing_act",
+      "celex": "32026D2240",
+      "cites": "32023R0956"
+    }
+  ],
+  "total_findings": 78,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
