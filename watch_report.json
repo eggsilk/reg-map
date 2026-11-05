@@ -1,7 +1,7 @@
 {
-  "run": "2026-11-02T15:11:52",
+  "run": "2026-11-05T14:22:04",
   "new_findings": [],
-  "total_findings": 78,
+  "total_findings": 79,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
