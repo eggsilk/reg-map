@@ -1,7 +1,14 @@
 {
-  "run": "2026-11-05T14:22:04",
-  "new_findings": [],
-  "total_findings": 79,
+  "run": "2026-11-09T15:41:34",
+  "new_findings": [
+    {
+      "type": "page_item",
+      "page": "ec-cbam-news",
+      "label": "New guidance on electricity imports under Centralised Clearance for Import",
+      "url": "https://taxation-customs.ec.europa.eu/news/new-guidance-electricity-imports-under-centralised-clearance-import-cci-2026-11-06_en"
+    }
+  ],
+  "total_findings": 80,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
