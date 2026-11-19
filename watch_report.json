@@ -1,7 +1,14 @@
 {
-  "run": "2026-11-16T15:16:07",
-  "new_findings": [],
-  "total_findings": 79,
+  "run": "2026-11-19T15:29:00",
+  "new_findings": [
+    {
+      "type": "page_item",
+      "page": "ec-cbam-news",
+      "label": "Extension of CBAM to Iceland and Norway",
+      "url": "https://taxation-customs.ec.europa.eu/news/extension-cbam-iceland-and-norway-2026-11-18_en"
+    }
+  ],
+  "total_findings": 80,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
