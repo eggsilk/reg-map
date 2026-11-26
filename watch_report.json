@@ -1,7 +1,20 @@
 {
-  "run": "2026-11-23T17:43:19",
-  "new_findings": [],
-  "total_findings": 80,
+  "run": "2026-11-26T16:38:07",
+  "new_findings": [
+    {
+      "type": "page_item",
+      "page": "ec-cbam-news",
+      "label": "Do you import any of these products into the EU?",
+      "url": "https://taxation-customs.ec.europa.eu/document/download/6232788c-fb1c-401d-bfe1-5f3ecac38703_en?filename=factsheet%20authorisation.pdf"
+    },
+    {
+      "type": "page_item",
+      "page": "ec-cbam-news",
+      "label": "Commission adopts rules on the recognition of carbon prices paid in non-EU countries",
+      "url": "https://taxation-customs.ec.europa.eu/news/cbam-commission-adopts-rules-recognition-carbon-prices-paid-non-eu-countries-2026-11-16_en"
+    }
+  ],
+  "total_findings": 79,
   "errors": [
     "[consolidations] eu-2023-956: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2551: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
@@ -23,6 +36,7 @@
     "[consolidations] eu-2025-2550: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2025-2619: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
     "[consolidations] eu-2024-3210: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
-    "[consolidations] eu-2026-1740: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))"
+    "[consolidations] eu-2026-1740: overview fetch failed (RuntimeError: blocked or empty response (0 bytes))",
+    "[wb_edition] wb-cpd: no xlsx link found on about page (layout drift?)"
   ]
 }
